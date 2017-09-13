@@ -1,0 +1,6 @@
+framework module Pods_FeiYu {
+  umbrella header "Pods-FeiYu-umbrella.h"
+
+  export *
+  module * { export * }
+}
