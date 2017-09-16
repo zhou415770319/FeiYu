@@ -8,6 +8,7 @@
 
 import Foundation
 import ChameleonFramework
+import JLRoutes
 extension AppDelegate{
     
     /// 设置主题
@@ -18,6 +19,62 @@ extension AppDelegate{
     }
     
     func initRoutes() -> Void {
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Login") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            let vc = LoginViewController.init()
+            vc.title = "Login"
+            self.window?.rootViewController = vc
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            
+            return true
+        }
+        JLRoutes.init(forScheme: "FeiYu-Profile").addRoute("/Main") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            let vc = LoginViewController.init()
+            vc.title = "Profile"
+            self.window?.rootViewController = vc
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        JLRoutes.init(forScheme: "FeiYu-PreView").addRoute("/Main") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            let vc = PreViewViewController.init()
+            vc.title = "PreView"
+            self.window?.rootViewController = vc
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        
+        JLRoutes.init(forScheme: "Feiyu-CocoaChina").addRoute("/Main") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            
+            self.window?.rootViewController = LoginViewController.init()
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        
+        JLRoutes.init(forScheme: "Feiyu-Code4app").addRoute("/Main") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            
+            self.window?.rootViewController = LoginViewController.init()
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        
+        JLRoutes.init(forScheme: "Feiyu-SwiftV").addRoute("/Main") { (params) -> Bool in
+            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+            
+            self.window?.rootViewController = LoginViewController.init()
+            self.window?.backgroundColor = UIColor.white
+            self.window?.makeKeyAndVisible()
+            return true
+        }
+        
         
     }
     

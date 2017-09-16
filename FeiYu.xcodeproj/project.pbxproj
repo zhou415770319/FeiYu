@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AEF1F654250004F3EFE /* AppDelegate.swift */; };
 		91D21AF21F654250004F3EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AF11F654250004F3EFE /* ViewController.swift */; };
-		91D21AF51F654250004F3EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF31F654250004F3EFE /* Main.storyboard */; };
 		91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF61F654250004F3EFE /* Assets.xcassets */; };
 		91D21AFA1F654250004F3EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF81F654250004F3EFE /* LaunchScreen.storyboard */; };
 		91D21B051F654250004F3EFE /* FeiYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B041F654250004F3EFE /* FeiYuTests.swift */; };
@@ -18,6 +17,8 @@
 		91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B2F1F67E1E1004F3EFE /* RoutesDemoTableViewController.m */; };
 		91D21B351F67E63F004F3EFE /* RouteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B331F67E63F004F3EFE /* RouteTableViewCell.m */; };
 		91D21B361F67E63F004F3EFE /* RouteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D21B341F67E63F004F3EFE /* RouteTableViewCell.xib */; };
+		91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */; };
+		91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B531F6D2387004F3EFE /* PreViewViewController.m */; };
 		F9F38E568747279C1C9C1613 /* Pods_FeiYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21012F0CE97AD4298C3ED8CC /* Pods_FeiYu.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +44,6 @@
 		91D21AEC1F654250004F3EFE /* FeiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D21AEF1F654250004F3EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D21AF11F654250004F3EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91D21AF41F654250004F3EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91D21AF61F654250004F3EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D21AF91F654250004F3EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D21AFB1F654250004F3EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +63,10 @@
 		91D21B421F6979C0004F3EFE /* PrefixHeader-FeiYu.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrefixHeader-FeiYu.pch"; sourceTree = "<group>"; };
 		91D21B431F697B4B004F3EFE /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		91D21B441F697BA8004F3EFE /* URLRouteMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLRouteMacros.h; sourceTree = "<group>"; };
+		91D21B4E1F6D0D42004F3EFE /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		91D21B521F6D2387004F3EFE /* PreViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreViewViewController.h; sourceTree = "<group>"; };
+		91D21B531F6D2387004F3EFE /* PreViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreViewViewController.m; sourceTree = "<group>"; };
 		B4972620A77964117F3E4284 /* Pods-FeiYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC7F598D86A913354557C13 /* Pods-FeiYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +233,8 @@
 		91D21B291F658C0B004F3EFE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				91D21B511F6D2203004F3EFE /* PreView */,
+				91D21B4D1F6D0D42004F3EFE /* Login */,
 				91D21B2C1F67E192004F3EFE /* Routes */,
 			);
 			path = Modules;
@@ -237,7 +243,6 @@
 		91D21B2A1F658C25004F3EFE /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				91D21AF31F654250004F3EFE /* Main.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -267,6 +272,24 @@
 				91D21B341F67E63F004F3EFE /* RouteTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		91D21B4D1F6D0D42004F3EFE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				91D21B4E1F6D0D42004F3EFE /* LoginViewController.h */,
+				91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		91D21B511F6D2203004F3EFE /* PreView */ = {
+			isa = PBXGroup;
+			children = (
+				91D21B521F6D2387004F3EFE /* PreViewViewController.h */,
+				91D21B531F6D2387004F3EFE /* PreViewViewController.m */,
+			);
+			path = PreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +403,6 @@
 				91D21AFA1F654250004F3EFE /* LaunchScreen.storyboard in Resources */,
 				91D21B361F67E63F004F3EFE /* RouteTableViewCell.xib in Resources */,
 				91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */,
-				91D21AF51F654250004F3EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,8 +477,10 @@
 			files = (
 				91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
+				91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */,
 				91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */,
 				91D21B351F67E63F004F3EFE /* RouteTableViewCell.m in Sources */,
+				91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */,
 				91D21B201F65454C004F3EFE /* GlobalSets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,14 +517,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91D21AF31F654250004F3EFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91D21AF41F654250004F3EFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91D21AF81F654250004F3EFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
