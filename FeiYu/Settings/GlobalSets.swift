@@ -13,70 +13,68 @@ extension AppDelegate{
     
     /// 设置主题
     public func setThemes() -> Void {
-        Chameleon.setGlobalThemeUsingPrimaryColor(.flatSand(),
+        Chameleon.setGlobalThemeUsingPrimaryColor(.flatSkyBlue(),
                                                   withSecondaryColor: .flatMint(),
                                                   andContentStyle: .contrast)
     }
-    
+     
+    /// 注册routes
     func initRoutes() -> Void {
-        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Login") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main") { (params) -> Bool in
             let vc = LoginViewController.init()
             vc.title = "Login"
-            self.window?.rootViewController = vc
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
-            
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         JLRoutes.init(forScheme: "FeiYu-Profile").addRoute("/Main") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
-            let vc = LoginViewController.init()
+            let vc = ProfileViewController.init()
             vc.title = "Profile"
-            self.window?.rootViewController = vc
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         JLRoutes.init(forScheme: "FeiYu-PreView").addRoute("/Main") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
             let vc = PreViewViewController.init()
             vc.title = "PreView"
-            self.window?.rootViewController = vc
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         
-        JLRoutes.init(forScheme: "Feiyu-CocoaChina").addRoute("/Main") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
-            
-            self.window?.rootViewController = LoginViewController.init()
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
+        JLRoutes.init(forScheme: "FeiYu-CocoaC").addRoute("/Main") { (params) -> Bool in
+            let vc = CocoaChinaViewController.init()
+            vc.title = "CocoaChina"
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         
-        JLRoutes.init(forScheme: "Feiyu-Code4app").addRoute("/Main") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
-            
-            self.window?.rootViewController = LoginViewController.init()
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
+        JLRoutes.init(forScheme: "FeiYu-Code4").addRoute("/Main") { (params) -> Bool in
+            let vc = Code4appViewController.init()
+            vc.title = "Code4app"
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         
-        JLRoutes.init(forScheme: "Feiyu-SwiftV").addRoute("/Main") { (params) -> Bool in
-            self.window = UIWindow.init(frame: UIScreen.main.bounds)
-            
-            self.window?.rootViewController = LoginViewController.init()
-            self.window?.backgroundColor = UIColor.white
-            self.window?.makeKeyAndVisible()
+        JLRoutes.init(forScheme: "FeiYu-SwiftV").addRoute("/Main") { (params) -> Bool in
+            let vc = SwiftVViewController.init()
+            vc.title = "SwiftV"
+            self.makeKeyWindow(viewController: vc)
             return true
         }
         
         
     }
+    
+    /// 显示主窗口
+    ///
+    /// - Parameter viewController: 要显示的窗口
+    func makeKeyWindow(viewController : UIViewController) -> Void {
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        
+        self.window?.rootViewController = viewController
+        self.window?.backgroundColor = UIColor.white
+        self.window?.makeKeyAndVisible()
+    }
+    
+    
     
 }
 

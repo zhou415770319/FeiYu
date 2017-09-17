@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FeiYu/Modules/Login/LoginViewController.m"
-            timestampString = "527263428.051053"
+            timestampString = "527337239.647441"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FeiYu/Settings/GlobalSets.swift"
-            timestampString = "527263428.051138"
+            timestampString = "527337239.647581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "initRoutes()"
             landmarkType = "7">
             <Locations>
@@ -42,11 +42,11 @@
                   moduleName = "FeiYu"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhoufei/Desktop/zf-code/gitHub/product/FeiYu/FeiYu/Settings/GlobalSets.swift"
-                  timestampString = "527246386.206793"
+                  timestampString = "527315853.307709"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
                   offsetFromSymbolStart = "17">
                </Location>
                <Location
@@ -57,12 +57,12 @@
                   moduleName = "FeiYu"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhoufei/Desktop/zf-code/gitHub/product/FeiYu/FeiYu/Settings/GlobalSets.swift"
-                  timestampString = "527246386.20972"
+                  timestampString = "527315853.310209"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "21">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "18">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FeiYu/Settings/GlobalSets.swift"
-            timestampString = "527263428.051213"
+            timestampString = "527337239.648078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "initRoutes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,13 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FeiYu/Settings/AppDelegate.swift"
-            timestampString = "527263428.051286"
+            timestampString = "527337239.648627"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "AppDelegate"
-            landmarkType = "3">
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "application(_:open:options:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,12 +106,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FeiYu/Modules/Login/LoginViewController.m"
-            timestampString = "527263428.051576"
+            timestampString = "527337239.648778"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
             landmarkName = "-btnClick:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeiYu/Settings/GlobalSets.swift"
+            timestampString = "527337239.648863"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "initRoutes()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

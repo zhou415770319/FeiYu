@@ -30,7 +30,7 @@
 
 -(void)btnClick:(UIButton *)sender{
     
-    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-PreView"];
+    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-Code4"];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
     
 }

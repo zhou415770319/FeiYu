@@ -6,3 +6,8 @@
 
 #import "LoginViewController.h"
 #import "PreViewViewController.h"
+#import "ProfileViewController.h"
+#import "CocoaChinaViewController.h"
+
+#import "ZFBaseTabBarController.h"
+

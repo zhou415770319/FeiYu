@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         DispatchQueue.global().async {
             DispatchQueue.main.async {
                 
-                UIApplication.shared.openURL(NSURL.init(string: "FeiYu-Login://Login")! as URL)
+                UIApplication.shared.openURL(NSURL.init(string: "FeiYu-Login://Main")! as URL)
             }
         }
     }
