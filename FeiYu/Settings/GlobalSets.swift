@@ -26,6 +26,31 @@ extension AppDelegate{
             self.makeKeyWindow(viewController: vc)
             return true
         }
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main2") { (params) -> Bool in
+            let vc = LoginTest1ViewController.init()
+            vc.title = "Login"
+            self.makeKeyWindow(viewController: vc)
+            return true
+        }
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main3") { (params) -> Bool in
+            let vc = LoginViewController.init()
+            vc.title = "Login"
+            self.makeKeyWindow(viewController: vc)
+            return true
+        }
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main4") { (params) -> Bool in
+            let vc = LoginViewController.init()
+            vc.title = "Login"
+            self.makeKeyWindow(viewController: vc)
+            return true
+        }
+        JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main5") { (params) -> Bool in
+            let vc = LoginViewController.init()
+            vc.title = "Login"
+            self.makeKeyWindow(viewController: vc)
+            return true
+        }
+        
         JLRoutes.init(forScheme: "FeiYu-Profile").addRoute("/Main") { (params) -> Bool in
             let vc = ProfileViewController.init()
             vc.title = "Profile"

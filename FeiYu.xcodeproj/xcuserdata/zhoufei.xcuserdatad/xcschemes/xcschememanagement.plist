@@ -7,7 +7,25 @@
 		<key>FeiYu.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>15</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>91D21AEB1F654250004F3EFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91D21AFF1F654250004F3EFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91D21B0A1F654250004F3EFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9163F5461F7BA65B0044D9BE /* LoginTest1ViewController.swift */; };
+		9163F5491F7BA65B0044D9BE /* LoginTest1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9163F5471F7BA65B0044D9BE /* LoginTest1ViewController.xib */; };
+		9163F54B1F7BA7E30044D9BE /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9163F54A1F7BA7D30044D9BE /* icon.xcassets */; };
+		917FB5131F934ACD007DDF87 /* login1.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5121F934AC9007DDF87 /* login1.png */; };
+		917FB5221F9B1AB0007DDF87 /* XXXRoundMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB5211F9B1AA3007DDF87 /* XXXRoundMenuButton.m */; };
+		917FB5231F9B1ABF007DDF87 /* SZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB5191F9B1AA3007DDF87 /* SZButton.m */; };
+		917FB5241F9B1ABF007DDF87 /* SZFoldawayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB51B1F9B1AA3007DDF87 /* SZFoldawayButton.m */; };
+		917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB51D1F9B1AA3007DDF87 /* SZFoldawayModel.m */; };
+		917FB5261F9B1ABF007DDF87 /* UIView+SZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB51F1F9B1AA3007DDF87 /* UIView+SZFrame.m */; };
+		917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */; };
 		91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AEF1F654250004F3EFE /* AppDelegate.swift */; };
 		91D21AF21F654250004F3EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AF11F654250004F3EFE /* ViewController.swift */; };
 		91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF61F654250004F3EFE /* Assets.xcassets */; };
@@ -100,6 +110,22 @@
 
 /* Begin PBXFileReference section */
 		21012F0CE97AD4298C3ED8CC /* Pods_FeiYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeiYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9163F5461F7BA65B0044D9BE /* LoginTest1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest1ViewController.swift; sourceTree = "<group>"; };
+		9163F5471F7BA65B0044D9BE /* LoginTest1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTest1ViewController.xib; sourceTree = "<group>"; };
+		9163F54A1F7BA7D30044D9BE /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icon.xcassets; sourceTree = "<group>"; };
+		917FB5121F934AC9007DDF87 /* login1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login1.png; sourceTree = "<group>"; };
+		917FB5181F9B1AA3007DDF87 /* SZButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZButton.h; sourceTree = "<group>"; };
+		917FB5191F9B1AA3007DDF87 /* SZButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZButton.m; sourceTree = "<group>"; };
+		917FB51A1F9B1AA3007DDF87 /* SZFoldawayButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFoldawayButton.h; sourceTree = "<group>"; };
+		917FB51B1F9B1AA3007DDF87 /* SZFoldawayButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayButton.m; sourceTree = "<group>"; };
+		917FB51C1F9B1AA3007DDF87 /* SZFoldawayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFoldawayModel.h; sourceTree = "<group>"; };
+		917FB51D1F9B1AA3007DDF87 /* SZFoldawayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFoldawayModel.m; sourceTree = "<group>"; };
+		917FB51E1F9B1AA3007DDF87 /* UIView+SZFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SZFrame.h"; sourceTree = "<group>"; };
+		917FB51F1F9B1AA3007DDF87 /* UIView+SZFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SZFrame.m"; sourceTree = "<group>"; };
+		917FB5201F9B1AA3007DDF87 /* XXXRoundMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXRoundMenuButton.h; sourceTree = "<group>"; };
+		917FB5211F9B1AA3007DDF87 /* XXXRoundMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXRoundMenuButton.m; sourceTree = "<group>"; };
+		917FB5281F9B2707007DDF87 /* ZFSelectMenuManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSelectMenuManager.h; sourceTree = "<group>"; };
+		917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSelectMenuManager.m; sourceTree = "<group>"; };
 		91D21AEC1F654250004F3EFE /* FeiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D21AEF1F654250004F3EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D21AF11F654250004F3EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -235,6 +261,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		917FB5161F9B1AA3007DDF87 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				917FB5171F9B1AA3007DDF87 /* SZFoldawayButton */,
+				917FB5201F9B1AA3007DDF87 /* XXXRoundMenuButton.h */,
+				917FB5211F9B1AA3007DDF87 /* XXXRoundMenuButton.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		917FB5171F9B1AA3007DDF87 /* SZFoldawayButton */ = {
+			isa = PBXGroup;
+			children = (
+				917FB5181F9B1AA3007DDF87 /* SZButton.h */,
+				917FB5191F9B1AA3007DDF87 /* SZButton.m */,
+				917FB51A1F9B1AA3007DDF87 /* SZFoldawayButton.h */,
+				917FB51B1F9B1AA3007DDF87 /* SZFoldawayButton.m */,
+				917FB51C1F9B1AA3007DDF87 /* SZFoldawayModel.h */,
+				917FB51D1F9B1AA3007DDF87 /* SZFoldawayModel.m */,
+				917FB51E1F9B1AA3007DDF87 /* UIView+SZFrame.h */,
+				917FB51F1F9B1AA3007DDF87 /* UIView+SZFrame.m */,
+			);
+			path = SZFoldawayButton;
+			sourceTree = "<group>";
+		};
+		91972ED01F7B9D07007534EC /* CYLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CYLTabBar;
+			sourceTree = "<group>";
+		};
 		91D21AE31F654250004F3EFE = {
 			isa = PBXGroup;
 			children = (
@@ -266,7 +324,7 @@
 				91D21B291F658C0B004F3EFE /* Modules */,
 				91D21B271F658C0B004F3EFE /* Resource */,
 				91D21B281F658C0B004F3EFE /* ThridParty */,
-				91D21B231F658C0B004F3EFE /* Utils */,
+				91D21BEE1F6EC012004F3EFE /* Utils */,
 				91D21B1D1F65444E004F3EFE /* Settings */,
 				91D21AF11F654250004F3EFE /* ViewController.swift */,
 				91D21AF61F654250004F3EFE /* Assets.xcassets */,
@@ -305,16 +363,11 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		91D21B231F658C0B004F3EFE /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		91D21B241F658C0B004F3EFE /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				917FB5281F9B2707007DDF87 /* ZFSelectMenuManager.h */,
+				917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -348,6 +401,8 @@
 		91D21B281F658C0B004F3EFE /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				917FB5161F9B1AA3007DDF87 /* Menu */,
+				91972ED01F7B9D07007534EC /* CYLTabBar */,
 			);
 			path = ThridParty;
 			sourceTree = "<group>";
@@ -377,6 +432,8 @@
 		91D21B2B1F658C51004F3EFE /* img */ = {
 			isa = PBXGroup;
 			children = (
+				917FB5121F934AC9007DDF87 /* login1.png */,
+				9163F54A1F7BA7D30044D9BE /* icon.xcassets */,
 				91D21BA51F6E5039004F3EFE /* Tabbar-code4 */,
 				91D21B641F6E3F54004F3EFE /* Tabbar */,
 			);
@@ -408,6 +465,8 @@
 			children = (
 				91D21B4E1F6D0D42004F3EFE /* LoginViewController.h */,
 				91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */,
+				9163F5461F7BA65B0044D9BE /* LoginTest1ViewController.swift */,
+				9163F5471F7BA65B0044D9BE /* LoginTest1ViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -537,6 +596,13 @@
 				91D21BBD1F6E5039004F3EFE /* LCTabBarBadge@2x.png */,
 			);
 			path = "Tabbar-code4";
+			sourceTree = "<group>";
+		};
+		91D21BEE1F6EC012004F3EFE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -679,6 +745,7 @@
 				91D21BCD1F6E5048004F3EFE /* icon_tabbar_misc@2x.png in Resources */,
 				91D21BC31F6E5048004F3EFE /* icon_tabbar_homepage_selected@2x.png in Resources */,
 				91D21B8D1F6E40A2004F3EFE /* tab_home_h.png in Resources */,
+				9163F5491F7BA65B0044D9BE /* LoginTest1ViewController.xib in Resources */,
 				91D21BC41F6E5048004F3EFE /* icon_tabbar_merchant_normal.png in Resources */,
 				91D21B9C1F6E40A9004F3EFE /* tab_relay_n@2x.png in Resources */,
 				91D21B911F6E40A9004F3EFE /* tab_more_h.png in Resources */,
@@ -688,10 +755,12 @@
 				91D21BCB1F6E5048004F3EFE /* icon_tabbar_mine_selected@2x.png in Resources */,
 				91D21B991F6E40A9004F3EFE /* tab_relay_h.png in Resources */,
 				91D21B861F6E40A2004F3EFE /* btn_release@3x.png in Resources */,
+				9163F54B1F7BA7E30044D9BE /* icon.xcassets in Resources */,
 				91D21BD21F6E5048004F3EFE /* icon_tabbar_onsite@2x.png in Resources */,
 				91D21BD51F6E5048004F3EFE /* LCTabBarBadge@2x.png in Resources */,
 				91D21B9F1F6E40A9004F3EFE /* tab_share_n.png in Resources */,
 				91D21B8B1F6E40A2004F3EFE /* tab_comment_n.png in Resources */,
+				917FB5131F934ACD007DDF87 /* login1.png in Resources */,
 				91D21BD41F6E5048004F3EFE /* icon_tabbar_onsite_selected@2x.png in Resources */,
 				91D21BCC1F6E5048004F3EFE /* icon_tabbar_misc.png in Resources */,
 				91D21BA01F6E40A9004F3EFE /* tab_share_n@2x.png in Resources */,
@@ -780,14 +849,21 @@
 				91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
 				91D21B5C1F6E1984004F3EFE /* ProfileViewController.m in Sources */,
+				9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */,
+				917FB5261F9B1ABF007DDF87 /* UIView+SZFrame.m in Sources */,
+				917FB5231F9B1ABF007DDF87 /* SZButton.m in Sources */,
+				917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */,
 				91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */,
 				91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */,
 				91D21BA41F6E484B004F3EFE /* ZFBaseTabBarController.m in Sources */,
+				917FB5221F9B1AB0007DDF87 /* XXXRoundMenuButton.m in Sources */,
 				91D21B351F67E63F004F3EFE /* RouteTableViewCell.m in Sources */,
 				91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */,
 				91D21B5F1F6E19D7004F3EFE /* CocoaChinaViewController.m in Sources */,
+				917FB5241F9B1ABF007DDF87 /* SZFoldawayButton.m in Sources */,
 				91D21B201F65454C004F3EFE /* GlobalSets.swift in Sources */,
 				91D21B631F6E1A10004F3EFE /* Code4appViewController.swift in Sources */,
+				917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,7 +1028,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FeiYu/Settings/FeiYu-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -971,7 +1047,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FeiYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FeiYu/Settings/FeiYu-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

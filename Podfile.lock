@@ -18,6 +18,7 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - CYLTabBarController (1.10.0)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - AFNetworking
   - BmobSDK
   - ChameleonFramework/Swift
+  - CYLTabBarController
   - FMDB
   - hpple
   - IBAnimatable
@@ -56,6 +58,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BmobSDK: 23cbfbde2a7cfaeb0c8a946953a266fe5211e7f6
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
   IBAnimatable: ad640d47659cbbfa4cf88a127fdc663b2ec4c66a
@@ -68,6 +71,6 @@ SPEC CHECKSUMS:
   XRCarouselView: 52529f924d26ee4787f9bd958150800b73e60922
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 71d7de6bd6c440d152fe43c89779a6d26e53e192
+PODFILE CHECKSUM: 100c753e4600856950422ba88af2ce2233eb200a
 
 COCOAPODS: 1.2.1.beta.1

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginTest1ViewController" customModule="FeiYu" customModuleProvider="target">
+            <connections>
+                <outlet property="creatAccount" destination="xSk-Zz-1tC" id="WtI-4x-yxA"/>
+                <outlet property="forgetPwd" destination="hrF-aV-8WD" id="JUk-cB-swS"/>
+                <outlet property="signBtn" destination="5W6-is-wHe" id="yoy-BC-W55"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mlx-bt-Nym">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login1.png" translatesAutoresizingMaskIntoConstraints="NO" id="HN4-1F-C0w">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vek-Xd-4K2" customClass="AnimatableView" customModule="IBAnimatable">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                            <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="Lyk-sb-PBR"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dLd-Gf-eld" customClass="AnimatableStackView" customModule="IBAnimatable">
+                            <rect key="frame" x="10" y="213.5" width="355" height="240"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hbF-Cb-Yzn" userLabel="Username text field" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <rect key="frame" x="0.0" y="0.0" width="355" height="60"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="7Bd-uC-dc1"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                            <color key="value" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftImageLeftPadding">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftImageRightPadding">
+                                            <real key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.086750656369999998" green="0.08585051447" blue="0.11175550519999999" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="username"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gXt-zt-BnD" userLabel="Password text field" customClass="AnimatableTextField" customModule="IBAnimatable">
+                                    <rect key="frame" x="0.0" y="60" width="355" height="60"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="ILi-cj-x09"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                            <color key="value" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftImageLeftPadding">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="leftImageRightPadding">
+                                            <real key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="password"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5W6-is-wHe" userLabel="Sign in button" customClass="AnimatableButton" customModule="IBAnimatable">
+                                    <rect key="frame" x="0.0" y="120" width="355" height="60"/>
+                                    <color key="backgroundColor" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="gPd-R5-xLh"/>
+                                    </constraints>
+                                    <state key="normal" title="Sign In">
+                                        <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                            <color key="value" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="signIn:" destination="-1" eventType="touchUpInside" id="5kl-gp-MLg"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yP6-4s-xf0">
+                                    <rect key="frame" x="0.0" y="180" width="355" height="60"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSk-Zz-1tC">
+                                            <rect key="frame" x="10" y="15" width="107" height="30"/>
+                                            <state key="normal" title="Create Account">
+                                                <color key="titleColor" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrF-aV-8WD">
+                                            <rect key="frame" x="230" y="15" width="115" height="30"/>
+                                            <state key="normal" title="Forget Password">
+                                                <color key="titleColor" red="0.72941176470000002" green="0.46666666670000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="5Ua-CF-puz"/>
+                                        <constraint firstItem="hrF-aV-8WD" firstAttribute="centerY" secondItem="yP6-4s-xf0" secondAttribute="centerY" id="ASW-p1-t0s"/>
+                                        <constraint firstItem="xSk-Zz-1tC" firstAttribute="centerY" secondItem="yP6-4s-xf0" secondAttribute="centerY" id="TC2-kY-Hc4"/>
+                                        <constraint firstAttribute="trailing" secondItem="hrF-aV-8WD" secondAttribute="trailing" constant="10" id="YeV-SS-kQH"/>
+                                        <constraint firstItem="xSk-Zz-1tC" firstAttribute="leading" secondItem="yP6-4s-xf0" secondAttribute="leading" constant="10" id="aeN-Xz-atr"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="_animationType" value="Shake"/>
+                            </userDefinedRuntimeAttributes>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="vek-Xd-4K2" firstAttribute="width" secondItem="Mlx-bt-Nym" secondAttribute="width" id="13w-Dx-uSR"/>
+                        <constraint firstItem="HN4-1F-C0w" firstAttribute="width" secondItem="Mlx-bt-Nym" secondAttribute="width" id="8Gd-iV-Q2n"/>
+                        <constraint firstItem="dLd-Gf-eld" firstAttribute="centerX" secondItem="Mlx-bt-Nym" secondAttribute="centerX" id="CsL-nb-doj"/>
+                        <constraint firstItem="vek-Xd-4K2" firstAttribute="top" secondItem="Mlx-bt-Nym" secondAttribute="top" id="E3T-J0-EZN"/>
+                        <constraint firstItem="HN4-1F-C0w" firstAttribute="centerY" secondItem="Mlx-bt-Nym" secondAttribute="centerY" id="GgE-kx-Zow"/>
+                        <constraint firstItem="HN4-1F-C0w" firstAttribute="height" secondItem="Mlx-bt-Nym" secondAttribute="height" id="Hdh-wm-TnT"/>
+                        <constraint firstItem="dLd-Gf-eld" firstAttribute="centerY" secondItem="Mlx-bt-Nym" secondAttribute="centerY" id="oV2-ub-dEO"/>
+                        <constraint firstItem="dLd-Gf-eld" firstAttribute="width" secondItem="Mlx-bt-Nym" secondAttribute="width" constant="-20" id="rlT-wN-Fbd"/>
+                        <constraint firstItem="vek-Xd-4K2" firstAttribute="leading" secondItem="Mlx-bt-Nym" secondAttribute="leading" id="ue2-nz-g9z"/>
+                        <constraint firstItem="HN4-1F-C0w" firstAttribute="centerX" secondItem="Mlx-bt-Nym" secondAttribute="centerX" id="yuD-bZ-o91"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Mlx-bt-Nym" secondAttribute="trailing" id="ASK-Hu-GPb"/>
+                <constraint firstItem="Mlx-bt-Nym" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DCc-sR-j2r"/>
+                <constraint firstItem="Mlx-bt-Nym" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FkR-nf-DDb"/>
+                <constraint firstAttribute="bottom" secondItem="Mlx-bt-Nym" secondAttribute="bottom" id="dJK-7v-sLu"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="login1.png" width="400" height="300"/>
+        <image name="password" width="20" height="22"/>
+        <image name="username" width="20" height="19"/>
+    </resources>
+</document>

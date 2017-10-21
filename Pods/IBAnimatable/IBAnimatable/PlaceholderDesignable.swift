@@ -19,7 +19,8 @@ public extension PlaceholderDesignable where Self: UITextField {
 
   public func configurePlaceholderColor() {
     if let placeholderColor = placeholderColor, let placeholder = placeholder {
-        attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedStringKey.foregroundColor: placeholderColor])
+        attributedPlaceholder = NSAttributedString.init(string: placeholder, attributes: [NSForegroundColorAttributeName: placeholderColor])
+//        attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedStringKey.foregroundColor: placeholderColor])
     }
   }
 }

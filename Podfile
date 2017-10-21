@@ -27,7 +27,10 @@ target "FeiYu" do
     pod 'YYKit'
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'SDWebImage', '~>3.8'
-    pod 'ChameleonFramework/Swift'    
+    
+    pod 'ChameleonFramework/Swift'
+    
+    pod 'CYLTabBarController'
     use_frameworks!
 end
 

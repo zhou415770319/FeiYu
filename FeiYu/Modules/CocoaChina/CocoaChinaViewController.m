@@ -7,34 +7,30 @@
 //
 
 #import "CocoaChinaViewController.h"
+#import "PreViewViewController.h"
 
 @interface CocoaChinaViewController ()
-
+@property (nonatomic,strong) NSMutableArray * VCS;//tabbar root VC
 @end
 
 @implementation CocoaChinaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor cyanColor];
-    /**** 添加子控制器 ****/
-    
+    //初始化tabbar
+
     
     // Do any additional setup after loading the view.
 }
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    
-    [self setupOneChildViewController:[[UITableViewController alloc] init] title:@"精华" image:@"tab_home_n" selectedImage:@"tab_home_h"];
-    [self setupOneChildViewController:[[UITableViewController alloc] init] title:@"新帖" image:@"tab_comment_n" selectedImage:@"tab_comment_h"];
+     /**** 添加子控制器 ****/
+    [self setupOneChildViewController:[[UITableViewController alloc] init] title:nil image:@"tab_home_n" selectedImage:@"tab_home_h"];
     [self setupOneChildViewController:[[UITableViewController alloc] init] title:nil image:nil selectedImage:nil];
-    
-    [self setupOneChildViewController:[[UIViewController alloc] init] title:@"关注" image:@"tab_more_n" selectedImage:@"tab_more_h"];
     [self setupOneChildViewController:[[UITableViewController alloc] init] title:@"我" image:@"tab_buddy_nor" selectedImage:@"tab_buddy_press"];
     
     return self;
 }
-
 
 
 

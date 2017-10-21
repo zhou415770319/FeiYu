@@ -7,8 +7,10 @@
 //
 
 #import "LoginViewController.h"
+#import "ZFSelectMenuManager.h"
 
 @interface LoginViewController ()
+@property (nonatomic, strong) SZFoldawayButton *szBtn;
 
 @end
 
@@ -24,13 +26,27 @@
     [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
+    self.szBtn = [ZFSelectMenuManager menuWithFrame:CGRectMake(SCREENWIDTH-40, 100, 40, 40) superView:self.view];
+    
+//    SZFoldawayModel *model = [[SZFoldawayModel alloc] initWithmMainBtnTitle:@"" selectTitle:@"" backColor:[UIColor blackColor] image:@"icon_tabbar_misc" selectImage:@""];
+//    model.subBtnTitles = @[@"壹", @"贰", @"叁", @"肆", @"伍"];
+//    model.subBtnColors = @[[UIColor purpleColor], [UIColor greenColor], [UIColor blueColor], [UIColor orangeColor], [UIColor lightGrayColor]];
+//
+//    self.szBtn = [[SZFoldawayButton alloc] initWithRect:CGRectMake(SCREENWIDTH-40, 100, 40, 40) andFoldAwayModel:model];
+//    self.szBtn.showType = showTypeOfCircle;
+//    self.szBtn.automaticShowDirection = YES;
+//    self.szBtn.disperseDistance = 60;
+//    [self.szBtn showInView:self.view];
+//    self.szBtn.clickSubButtonBack = ^(int index, NSString *title, BOOL select){
+//        NSLog(@"%zd -- %@ --  %zd", index, title, select);
+//    };
     self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
 }
 
 -(void)btnClick:(UIButton *)sender{
     
-    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-Code4"];
+    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-CocoaC"];
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
     
 }

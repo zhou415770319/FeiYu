@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75b5b1af-8e93-44e0-a938-f2cbf824b489" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/0.imageset/0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/1.imageset/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/10.imageset/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/11.imageset/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/12.imageset/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/2.imageset/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/3.imageset/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/4.imageset/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/5.imageset/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/6.imageset/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/7.imageset/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/8.imageset/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/9.imageset/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/login.imageset/login.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Modules/Login/LoginTest1ViewController.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Modules/Login/LoginTest1ViewController.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/0.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/1.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/10.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/11.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/12.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/2.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/3.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/4.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/5.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/6.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/7.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/8.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/9.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FeiYu/Resource/img/icon.xcassets/login.imageset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu.xcworkspace/xcuserdata/zhoufei.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FeiYu.xcworkspace/xcuserdata/zhoufei.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FeiYu.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/FeiYu.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu.xcworkspace/xcuserdata/zhoufei.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/FeiYu.xcworkspace/xcuserdata/zhoufei.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu/Macros/UtilsMacros.h" afterPath="$PROJECT_DIR$/FeiYu/Macros/UtilsMacros.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu/Modules/CocoaChina/CocoaChinaViewController.h" afterPath="$PROJECT_DIR$/FeiYu/Modules/CocoaChina/CocoaChinaViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu/Modules/CocoaChina/CocoaChinaViewController.m" afterPath="$PROJECT_DIR$/FeiYu/Modules/CocoaChina/CocoaChinaViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu/Modules/Login/LoginViewController.m" afterPath="$PROJECT_DIR$/FeiYu/Modules/Login/LoginViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FeiYu/Settings/GlobalSets.swift" afterPath="$PROJECT_DIR$/FeiYu/Settings/GlobalSets.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/Pods-FeiYu.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/Pods-FeiYu.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/SDWebImage.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/XRCarouselView.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/XRCarouselView.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/YYKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/YYKit.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/zhoufei.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-acknowledgements.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-acknowledgements.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu-frameworks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.debug.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.release.xcconfig" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="45" />
+    <option name="y" value="41" />
+    <option name="width" value="1395" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="FeiYu" type="1d218c8b:XcodeProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b5b1af-8e93-44e0-a938-f2cbf824b489" name="Default" comment="" />
+      <created>1508030109576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508030109576</updated>
+      <workItem from="1508030112717" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="45" y="41" width="1395" height="837" extended-state="0" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
