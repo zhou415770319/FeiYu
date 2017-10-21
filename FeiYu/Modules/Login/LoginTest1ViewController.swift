@@ -26,7 +26,13 @@ class LoginTest1ViewController: AnimatableViewController {
         
         // Do any additional setup after loading the view.
     }
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        UIWindow().resignFirstResponder()
+        
+        view.endEditing(true)
+    }
+    
     @IBAction func signIn(_ sender: AnimatableButton) {
         let url = "FeiYu-CocoaC"+"://Main"
         

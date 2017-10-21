@@ -17,6 +17,14 @@
 		917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB51D1F9B1AA3007DDF87 /* SZFoldawayModel.m */; };
 		917FB5261F9B1ABF007DDF87 /* UIView+SZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB51F1F9B1AA3007DDF87 /* UIView+SZFrame.m */; };
 		917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */; };
+		917FB5351F9B3779007DDF87 /* WSLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 917FB5341F9B3706007DDF87 /* WSLoginView.m */; };
+		917FB5361F9B37A6007DDF87 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 917FB52C1F9B3706007DDF87 /* bg.jpeg */; };
+		917FB5371F9B37A6007DDF87 /* icon_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB52D1F9B3706007DDF87 /* icon_hand.png */; };
+		917FB5381F9B37A6007DDF87 /* iconfont-password.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB52E1F9B3706007DDF87 /* iconfont-password.png */; };
+		917FB5391F9B37A6007DDF87 /* iconfont-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB52F1F9B3706007DDF87 /* iconfont-user.png */; };
+		917FB53A1F9B37A6007DDF87 /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5301F9B3706007DDF87 /* owl-login-arm-left@2x.png */; };
+		917FB53B1F9B37A6007DDF87 /* owl-login-arm-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5311F9B3706007DDF87 /* owl-login-arm-right@2x.png */; };
+		917FB53C1F9B37A6007DDF87 /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5321F9B3706007DDF87 /* owl-login@2x.png */; };
 		91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AEF1F654250004F3EFE /* AppDelegate.swift */; };
 		91D21AF21F654250004F3EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AF11F654250004F3EFE /* ViewController.swift */; };
 		91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF61F654250004F3EFE /* Assets.xcassets */; };
@@ -126,6 +134,15 @@
 		917FB5211F9B1AA3007DDF87 /* XXXRoundMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXRoundMenuButton.m; sourceTree = "<group>"; };
 		917FB5281F9B2707007DDF87 /* ZFSelectMenuManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSelectMenuManager.h; sourceTree = "<group>"; };
 		917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSelectMenuManager.m; sourceTree = "<group>"; };
+		917FB52C1F9B3706007DDF87 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		917FB52D1F9B3706007DDF87 /* icon_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hand.png; sourceTree = "<group>"; };
+		917FB52E1F9B3706007DDF87 /* iconfont-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-password.png"; sourceTree = "<group>"; };
+		917FB52F1F9B3706007DDF87 /* iconfont-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-user.png"; sourceTree = "<group>"; };
+		917FB5301F9B3706007DDF87 /* owl-login-arm-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-left@2x.png"; sourceTree = "<group>"; };
+		917FB5311F9B3706007DDF87 /* owl-login-arm-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login-arm-right@2x.png"; sourceTree = "<group>"; };
+		917FB5321F9B3706007DDF87 /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
+		917FB5331F9B3706007DDF87 /* WSLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
+		917FB5341F9B3706007DDF87 /* WSLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
 		91D21AEC1F654250004F3EFE /* FeiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D21AEF1F654250004F3EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D21AF11F654250004F3EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +303,22 @@
 			path = SZFoldawayButton;
 			sourceTree = "<group>";
 		};
+		917FB52B1F9B3706007DDF87 /* WSLoginView */ = {
+			isa = PBXGroup;
+			children = (
+				917FB52C1F9B3706007DDF87 /* bg.jpeg */,
+				917FB52D1F9B3706007DDF87 /* icon_hand.png */,
+				917FB52E1F9B3706007DDF87 /* iconfont-password.png */,
+				917FB52F1F9B3706007DDF87 /* iconfont-user.png */,
+				917FB5301F9B3706007DDF87 /* owl-login-arm-left@2x.png */,
+				917FB5311F9B3706007DDF87 /* owl-login-arm-right@2x.png */,
+				917FB5321F9B3706007DDF87 /* owl-login@2x.png */,
+				917FB5331F9B3706007DDF87 /* WSLoginView.h */,
+				917FB5341F9B3706007DDF87 /* WSLoginView.m */,
+			);
+			path = WSLoginView;
+			sourceTree = "<group>";
+		};
 		91972ED01F7B9D07007534EC /* CYLTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +434,7 @@
 		91D21B281F658C0B004F3EFE /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				917FB52B1F9B3706007DDF87 /* WSLoginView */,
 				917FB5161F9B1AA3007DDF87 /* Menu */,
 				91972ED01F7B9D07007534EC /* CYLTabBar */,
 			);
@@ -729,7 +763,9 @@
 				91D21B8F1F6E40A9004F3EFE /* tab_me_nor@2x.png in Resources */,
 				91D21BC51F6E5048004F3EFE /* icon_tabbar_merchant_normal@2x.png in Resources */,
 				91D21B901F6E40A9004F3EFE /* tab_me_press@2x.png in Resources */,
+				917FB5391F9B37A6007DDF87 /* iconfont-user.png in Resources */,
 				91D21B831F6E405E004F3EFE /* tab_home_n.png in Resources */,
+				917FB53C1F9B37A6007DDF87 /* owl-login@2x.png in Resources */,
 				91D21BC71F6E5048004F3EFE /* icon_tabbar_merchant_selected@2x.png in Resources */,
 				91D21B361F67E63F004F3EFE /* RouteTableViewCell.xib in Resources */,
 				91D21B841F6E4062004F3EFE /* tab_home_n@2x.png in Resources */,
@@ -737,6 +773,7 @@
 				91D21B941F6E40A9004F3EFE /* tab_more_n@2x.png in Resources */,
 				91D21BC81F6E5048004F3EFE /* icon_tabbar_mine.png in Resources */,
 				91D21B921F6E40A9004F3EFE /* tab_more_h@2x.png in Resources */,
+				917FB53A1F9B37A6007DDF87 /* owl-login-arm-left@2x.png in Resources */,
 				91D21BBF1F6E5048004F3EFE /* icon_tabbar_discovery_selected.png in Resources */,
 				91D21BCA1F6E5048004F3EFE /* icon_tabbar_mine_selected.png in Resources */,
 				91D21B871F6E40A2004F3EFE /* tab_buddy_nor@2x.png in Resources */,
@@ -758,8 +795,11 @@
 				9163F54B1F7BA7E30044D9BE /* icon.xcassets in Resources */,
 				91D21BD21F6E5048004F3EFE /* icon_tabbar_onsite@2x.png in Resources */,
 				91D21BD51F6E5048004F3EFE /* LCTabBarBadge@2x.png in Resources */,
+				917FB5381F9B37A6007DDF87 /* iconfont-password.png in Resources */,
 				91D21B9F1F6E40A9004F3EFE /* tab_share_n.png in Resources */,
 				91D21B8B1F6E40A2004F3EFE /* tab_comment_n.png in Resources */,
+				917FB5371F9B37A6007DDF87 /* icon_hand.png in Resources */,
+				917FB5361F9B37A6007DDF87 /* bg.jpeg in Resources */,
 				917FB5131F934ACD007DDF87 /* login1.png in Resources */,
 				91D21BD41F6E5048004F3EFE /* icon_tabbar_onsite_selected@2x.png in Resources */,
 				91D21BCC1F6E5048004F3EFE /* icon_tabbar_misc.png in Resources */,
@@ -769,6 +809,7 @@
 				91D21B8A1F6E40A2004F3EFE /* tab_comment_h@2x.png in Resources */,
 				91D21B931F6E40A9004F3EFE /* tab_more_n.png in Resources */,
 				91D21B951F6E40A9004F3EFE /* tab_qworld_nor@2x.png in Resources */,
+				917FB53B1F9B37A6007DDF87 /* owl-login-arm-right@2x.png in Resources */,
 				91D21BD31F6E5048004F3EFE /* icon_tabbar_onsite_new@2x.png in Resources */,
 				91D21B981F6E40A9004F3EFE /* tab_recent_press@2x.png in Resources */,
 				91D21B971F6E40A9004F3EFE /* tab_recent_nor@2x.png in Resources */,
@@ -847,6 +888,7 @@
 			files = (
 				91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */,
 				91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */,
+				917FB5351F9B3779007DDF87 /* WSLoginView.m in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
 				91D21B5C1F6E1984004F3EFE /* ProfileViewController.m in Sources */,
 				9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */,

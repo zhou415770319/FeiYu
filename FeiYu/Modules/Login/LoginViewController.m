@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "ZFSelectMenuManager.h"
-
+#import "WSLoginView.h"
 @interface LoginViewController ()
 @property (nonatomic, strong) SZFoldawayButton *szBtn;
 
@@ -19,12 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn setTitle:@"zhou" forState:UIControlStateNormal];
-    btn.frame = CGRectMake(100, 100, 300, 30);
-    btn.backgroundColor = [UIColor blueColor];
-    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    WSLoginView *wsLoginV = [[WSLoginView alloc]initWithFrame:self.view.bounds];
+    wsLoginV.titleLabel.text = @"login view";
+    wsLoginV.titleLabel.textColor = [UIColor grayColor];
+    wsLoginV.hideEyesType = AllEyesHide;//遮挡眼睛类型
+    [self.view addSubview:wsLoginV];
+    
+    [wsLoginV setClickBlock:^(NSString *textField1Text, NSString *textField2Text) {
+        
+        NSLog(@"点击了登录按钮textField1 = %@   textField2 = %@",textField1Text,textField2Text);
+        UIAlertView *alertV = [[UIAlertView alloc]initWithTitle:@"登录按钮事件" message:[NSString stringWithFormat:@"账号：%@\n密码：%@",textField1Text,textField2Text] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alertV show];
+    }];
+    
     
     self.szBtn = [ZFSelectMenuManager menuWithFrame:CGRectMake(SCREENWIDTH-40, 100, 40, 40) superView:self.view];
     
@@ -40,7 +47,6 @@
 //    self.szBtn.clickSubButtonBack = ^(int index, NSString *title, BOOL select){
 //        NSLog(@"%zd -- %@ --  %zd", index, title, select);
 //    };
-    self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
 }
 
