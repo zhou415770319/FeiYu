@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YMFUserInfoView" customModule="MerchantBackground" customModuleProvider="target">
+            <connections>
+                <outlet property="forgetPwdBtn" destination="C6N-qd-rn8" id="ZAN-wt-Y7y"/>
+                <outlet property="iconImg" destination="2pY-d6-fbU" id="5dq-YA-Efe"/>
+                <outlet property="loginBtn" destination="BJB-Q7-pQt" id="60B-6w-4wL"/>
+                <outlet property="merchantNum" destination="b8C-UI-Bg4" id="WzC-oG-Fyf"/>
+                <outlet property="registBtn" destination="i72-hf-qdn" id="KMM-sh-Wda"/>
+                <outlet property="userPwd" destination="vPf-SP-Pcb" id="72a-oq-2ib"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2pY-d6-fbU">
+                    <rect key="frame" x="77.5" y="60" width="220" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="220" id="FYr-XE-Pc2"/>
+                        <constraint firstAttribute="height" constant="100" id="MfX-ey-WLp"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vPf-SP-Pcb">
+                    <rect key="frame" x="0.0" y="240" width="375" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="u9T-1x-uOa"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-Q7-pQt">
+                    <rect key="frame" x="0.0" y="300" width="375" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="rJR-po-ThO"/>
+                    </constraints>
+                    <state key="normal" title="登录"/>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入您的商户号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="b8C-UI-Bg4">
+                    <rect key="frame" x="0.0" y="180" width="375" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="uyM-12-v8k"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6N-qd-rn8">
+                    <rect key="frame" x="0.0" y="340" width="62" height="30"/>
+                    <state key="normal" title="忘记密码"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i72-hf-qdn">
+                    <rect key="frame" x="313" y="340" width="62" height="30"/>
+                    <state key="normal" title="注册柜员"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BJB-Q7-pQt" firstAttribute="top" secondItem="vPf-SP-Pcb" secondAttribute="bottom" constant="20" id="00A-t2-bg9"/>
+                <constraint firstItem="vPf-SP-Pcb" firstAttribute="top" secondItem="b8C-UI-Bg4" secondAttribute="bottom" constant="20" id="5KA-eH-usA"/>
+                <constraint firstItem="C6N-qd-rn8" firstAttribute="top" secondItem="BJB-Q7-pQt" secondAttribute="bottom" constant="10" id="7as-0L-Okt"/>
+                <constraint firstItem="BJB-Q7-pQt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7iX-5r-5s7"/>
+                <constraint firstAttribute="trailing" secondItem="b8C-UI-Bg4" secondAttribute="trailing" id="Aai-r3-4n0"/>
+                <constraint firstAttribute="trailing" secondItem="vPf-SP-Pcb" secondAttribute="trailing" id="GFe-e4-CXw"/>
+                <constraint firstItem="i72-hf-qdn" firstAttribute="centerY" secondItem="C6N-qd-rn8" secondAttribute="centerY" id="JQ1-ho-64k"/>
+                <constraint firstItem="2pY-d6-fbU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LSR-Xq-NFL"/>
+                <constraint firstItem="2pY-d6-fbU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="csl-P0-qOc"/>
+                <constraint firstItem="b8C-UI-Bg4" firstAttribute="top" secondItem="2pY-d6-fbU" secondAttribute="bottom" constant="20" id="dx0-YP-Aja"/>
+                <constraint firstItem="vPf-SP-Pcb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h7Q-tD-aeC"/>
+                <constraint firstAttribute="trailing" secondItem="i72-hf-qdn" secondAttribute="trailing" id="krV-HA-MTu"/>
+                <constraint firstItem="b8C-UI-Bg4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nFM-A0-QtH"/>
+                <constraint firstAttribute="trailing" secondItem="BJB-Q7-pQt" secondAttribute="trailing" id="pb1-Wl-m1o"/>
+                <constraint firstItem="C6N-qd-rn8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qAo-YT-I0A"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="72.5" y="131"/>
+        </view>
+    </objects>
+</document>

@@ -96,6 +96,36 @@
 		91D21BD31F6E5048004F3EFE /* icon_tabbar_onsite_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D21BBB1F6E5039004F3EFE /* icon_tabbar_onsite_new@2x.png */; };
 		91D21BD41F6E5048004F3EFE /* icon_tabbar_onsite_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D21BBC1F6E5039004F3EFE /* icon_tabbar_onsite_selected@2x.png */; };
 		91D21BD51F6E5048004F3EFE /* LCTabBarBadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D21BBD1F6E5039004F3EFE /* LCTabBarBadge@2x.png */; };
+		91E7886B1F9B88CF00A71EC5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E7886A1F9B88CA00A71EC5 /* BaseViewController.m */; };
+		91E7886F1F9B895700A71EC5 /* SDProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E7886E1F9B895100A71EC5 /* SDProgressHUD.m */; };
+		91E788731F9B8A4000A71EC5 /* BundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E788721F9B8A3A00A71EC5 /* BundleImage.m */; };
+		91E788761F9B8B5300A71EC5 /* LoginTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E788741F9B8B5300A71EC5 /* LoginTest2ViewController.swift */; };
+		91E788771F9B8B5300A71EC5 /* LoginTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E788751F9B8B5300A71EC5 /* LoginTest2ViewController.xib */; };
+		91E788811F9B8E5A00A71EC5 /* BtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E788791F9B8E5400A71EC5 /* BtnView.swift */; };
+		91E788821F9B8E6300A71EC5 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7887B1F9B8E5400A71EC5 /* UserInfoView.swift */; };
+		91E788831F9B8E6800A71EC5 /* ViewToll.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E7887E1F9B8E5400A71EC5 /* ViewToll.m */; };
+		91E788841F9B8E6C00A71EC5 /* YMFUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7887F1F9B8E5400A71EC5 /* YMFUserInfoView.swift */; };
+		91E788871F9B8ECF00A71EC5 /* ZFXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E788861F9B8EC700A71EC5 /* ZFXibView.swift */; };
+		91E7888C1F9B8F2400A71EC5 /* buttonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E788891F9B8F1C00A71EC5 /* buttonTool.swift */; };
+		91E7888D1F9B8F2400A71EC5 /* TextFieldTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7888A1F9B8F1C00A71EC5 /* TextFieldTool.swift */; };
+		91E7888E1F9B8F2400A71EC5 /* UIButton+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7888B1F9B8F1C00A71EC5 /* UIButton+Category.swift */; };
+		91E788901F9B900000A71EC5 /* define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7888F1F9B8FFC00A71EC5 /* define.swift */; };
+		91E788911F9B91BF00A71EC5 /* YMFUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E788801F9B8E5400A71EC5 /* YMFUserInfoView.xib */; };
+		91E788921F9B91C400A71EC5 /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E7887C1F9B8E5400A71EC5 /* UserInfoView.xib */; };
+		91E788931F9B91C900A71EC5 /* BtnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E7887A1F9B8E5400A71EC5 /* BtnView.xib */; };
+		91E7889D1F9B93DC00A71EC5 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788951F9B93D500A71EC5 /* all.png */; };
+		91E7889E1F9B93DC00A71EC5 /* kuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788961F9B93D500A71EC5 /* kuang.png */; };
+		91E7889F1F9B93DC00A71EC5 /* kuang_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788971F9B93D500A71EC5 /* kuang_select.png */; };
+		91E788A01F9B93DC00A71EC5 /* login_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788981F9B93D500A71EC5 /* login_background.png */; };
+		91E788A11F9B93DC00A71EC5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788991F9B93D500A71EC5 /* logo.png */; };
+		91E788A21F9B93DC00A71EC5 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E7889A1F9B93D500A71EC5 /* logo2.png */; };
+		91E788A31F9B93DC00A71EC5 /* PWDIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E7889B1F9B93D500A71EC5 /* PWDIcon.png */; };
+		91E788A41F9B93DC00A71EC5 /* userIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E7889C1F9B93D500A71EC5 /* userIcon.png */; };
+		91E788AA1F9B955F00A71EC5 /* 登录页-盾牌.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788A71F9B955700A71EC5 /* 登录页-盾牌.png */; };
+		91E788AB1F9B955F00A71EC5 /* 登录页-输入密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788A61F9B955700A71EC5 /* 登录页-输入密码.png */; };
+		91E788AC1F9B955F00A71EC5 /* 登录页-输入用户名图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788A91F9B955700A71EC5 /* 登录页-输入用户名图标.png */; };
+		91E788AD1F9B955F00A71EC5 /* 登录页-主页图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788A81F9B955700A71EC5 /* 登录页-主页图标.png */; };
+		91E788AE1F9B955F00A71EC5 /* 登录页.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E788A51F9B955700A71EC5 /* 登录页.png */; };
 		F9F38E568747279C1C9C1613 /* Pods_FeiYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21012F0CE97AD4298C3ED8CC /* Pods_FeiYu.framework */; };
 /* End PBXBuildFile section */
 
@@ -231,6 +261,40 @@
 		91D21BBB1F6E5039004F3EFE /* icon_tabbar_onsite_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_onsite_new@2x.png"; sourceTree = "<group>"; };
 		91D21BBC1F6E5039004F3EFE /* icon_tabbar_onsite_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_onsite_selected@2x.png"; sourceTree = "<group>"; };
 		91D21BBD1F6E5039004F3EFE /* LCTabBarBadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LCTabBarBadge@2x.png"; sourceTree = "<group>"; };
+		91E788691F9B88CA00A71EC5 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		91E7886A1F9B88CA00A71EC5 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		91E7886D1F9B895100A71EC5 /* SDProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDProgressHUD.h; sourceTree = "<group>"; };
+		91E7886E1F9B895100A71EC5 /* SDProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDProgressHUD.m; sourceTree = "<group>"; };
+		91E788711F9B8A3A00A71EC5 /* BundleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleImage.h; sourceTree = "<group>"; };
+		91E788721F9B8A3A00A71EC5 /* BundleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleImage.m; sourceTree = "<group>"; };
+		91E788741F9B8B5300A71EC5 /* LoginTest2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest2ViewController.swift; sourceTree = "<group>"; };
+		91E788751F9B8B5300A71EC5 /* LoginTest2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTest2ViewController.xib; sourceTree = "<group>"; };
+		91E788791F9B8E5400A71EC5 /* BtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnView.swift; sourceTree = "<group>"; };
+		91E7887A1F9B8E5400A71EC5 /* BtnView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BtnView.xib; sourceTree = "<group>"; };
+		91E7887B1F9B8E5400A71EC5 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		91E7887C1F9B8E5400A71EC5 /* UserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		91E7887D1F9B8E5400A71EC5 /* ViewToll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewToll.h; sourceTree = "<group>"; };
+		91E7887E1F9B8E5400A71EC5 /* ViewToll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewToll.m; sourceTree = "<group>"; };
+		91E7887F1F9B8E5400A71EC5 /* YMFUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMFUserInfoView.swift; sourceTree = "<group>"; };
+		91E788801F9B8E5400A71EC5 /* YMFUserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YMFUserInfoView.xib; sourceTree = "<group>"; };
+		91E788861F9B8EC700A71EC5 /* ZFXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFXibView.swift; sourceTree = "<group>"; };
+		91E788891F9B8F1C00A71EC5 /* buttonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTool.swift; sourceTree = "<group>"; };
+		91E7888A1F9B8F1C00A71EC5 /* TextFieldTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTool.swift; sourceTree = "<group>"; };
+		91E7888B1F9B8F1C00A71EC5 /* UIButton+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Category.swift"; sourceTree = "<group>"; };
+		91E7888F1F9B8FFC00A71EC5 /* define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = define.swift; sourceTree = "<group>"; };
+		91E788951F9B93D500A71EC5 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		91E788961F9B93D500A71EC5 /* kuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuang.png; sourceTree = "<group>"; };
+		91E788971F9B93D500A71EC5 /* kuang_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuang_select.png; sourceTree = "<group>"; };
+		91E788981F9B93D500A71EC5 /* login_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_background.png; sourceTree = "<group>"; };
+		91E788991F9B93D500A71EC5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		91E7889A1F9B93D500A71EC5 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		91E7889B1F9B93D500A71EC5 /* PWDIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PWDIcon.png; sourceTree = "<group>"; };
+		91E7889C1F9B93D500A71EC5 /* userIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userIcon.png; sourceTree = "<group>"; };
+		91E788A51F9B955700A71EC5 /* 登录页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录页.png"; sourceTree = "<group>"; };
+		91E788A61F9B955700A71EC5 /* 登录页-输入密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录页-输入密码.png"; sourceTree = "<group>"; };
+		91E788A71F9B955700A71EC5 /* 登录页-盾牌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录页-盾牌.png"; sourceTree = "<group>"; };
+		91E788A81F9B955700A71EC5 /* 登录页-主页图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录页-主页图标.png"; sourceTree = "<group>"; };
+		91E788A91F9B955700A71EC5 /* 登录页-输入用户名图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录页-输入用户名图标.png"; sourceTree = "<group>"; };
 		B4972620A77964117F3E4284 /* Pods-FeiYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiYu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC7F598D86A913354557C13 /* Pods-FeiYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiYu.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeiYu/Pods-FeiYu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -408,6 +472,7 @@
 		91D21B251F658C0B004F3EFE /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				91E7888F1F9B8FFC00A71EC5 /* define.swift */,
 				91D21B431F697B4B004F3EFE /* UtilsMacros.h */,
 				91D21B441F697BA8004F3EFE /* URLRouteMacros.h */,
 			);
@@ -417,6 +482,8 @@
 		91D21B261F658C0B004F3EFE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				91E788691F9B88CA00A71EC5 /* BaseViewController.h */,
+				91E7886A1F9B88CA00A71EC5 /* BaseViewController.m */,
 				91D21BA11F6E414D004F3EFE /* TabBar */,
 			);
 			path = Base;
@@ -434,6 +501,7 @@
 		91D21B281F658C0B004F3EFE /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				91E7886C1F9B895100A71EC5 /* SDProgressHUD */,
 				917FB52B1F9B3706007DDF87 /* WSLoginView */,
 				917FB5161F9B1AA3007DDF87 /* Menu */,
 				91972ED01F7B9D07007534EC /* CYLTabBar */,
@@ -466,6 +534,7 @@
 		91D21B2B1F658C51004F3EFE /* img */ = {
 			isa = PBXGroup;
 			children = (
+				91E788941F9B93D500A71EC5 /* login2 */,
 				917FB5121F934AC9007DDF87 /* login1.png */,
 				9163F54A1F7BA7D30044D9BE /* icon.xcassets */,
 				91D21BA51F6E5039004F3EFE /* Tabbar-code4 */,
@@ -497,8 +566,11 @@
 		91D21B4D1F6D0D42004F3EFE /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				91E788781F9B8E5400A71EC5 /* Login2 */,
 				91D21B4E1F6D0D42004F3EFE /* LoginViewController.h */,
 				91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */,
+				91E788741F9B8B5300A71EC5 /* LoginTest2ViewController.swift */,
+				91E788751F9B8B5300A71EC5 /* LoginTest2ViewController.xib */,
 				9163F5461F7BA65B0044D9BE /* LoginTest1ViewController.swift */,
 				9163F5471F7BA65B0044D9BE /* LoginTest1ViewController.xib */,
 			);
@@ -635,8 +707,82 @@
 		91D21BEE1F6EC012004F3EFE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				91E788851F9B8EC700A71EC5 /* Public */,
+				91E788701F9B8A3A00A71EC5 /* BundleImage */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		91E7886C1F9B895100A71EC5 /* SDProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				91E7886D1F9B895100A71EC5 /* SDProgressHUD.h */,
+				91E7886E1F9B895100A71EC5 /* SDProgressHUD.m */,
+			);
+			path = SDProgressHUD;
+			sourceTree = "<group>";
+		};
+		91E788701F9B8A3A00A71EC5 /* BundleImage */ = {
+			isa = PBXGroup;
+			children = (
+				91E788711F9B8A3A00A71EC5 /* BundleImage.h */,
+				91E788721F9B8A3A00A71EC5 /* BundleImage.m */,
+			);
+			path = BundleImage;
+			sourceTree = "<group>";
+		};
+		91E788781F9B8E5400A71EC5 /* Login2 */ = {
+			isa = PBXGroup;
+			children = (
+				91E788791F9B8E5400A71EC5 /* BtnView.swift */,
+				91E7887A1F9B8E5400A71EC5 /* BtnView.xib */,
+				91E7887B1F9B8E5400A71EC5 /* UserInfoView.swift */,
+				91E7887C1F9B8E5400A71EC5 /* UserInfoView.xib */,
+				91E7887D1F9B8E5400A71EC5 /* ViewToll.h */,
+				91E7887E1F9B8E5400A71EC5 /* ViewToll.m */,
+				91E7887F1F9B8E5400A71EC5 /* YMFUserInfoView.swift */,
+				91E788801F9B8E5400A71EC5 /* YMFUserInfoView.xib */,
+			);
+			path = Login2;
+			sourceTree = "<group>";
+		};
+		91E788851F9B8EC700A71EC5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				91E788881F9B8F1C00A71EC5 /* ViewTool */,
+				91E788861F9B8EC700A71EC5 /* ZFXibView.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		91E788881F9B8F1C00A71EC5 /* ViewTool */ = {
+			isa = PBXGroup;
+			children = (
+				91E788891F9B8F1C00A71EC5 /* buttonTool.swift */,
+				91E7888A1F9B8F1C00A71EC5 /* TextFieldTool.swift */,
+				91E7888B1F9B8F1C00A71EC5 /* UIButton+Category.swift */,
+			);
+			path = ViewTool;
+			sourceTree = "<group>";
+		};
+		91E788941F9B93D500A71EC5 /* login2 */ = {
+			isa = PBXGroup;
+			children = (
+				91E788951F9B93D500A71EC5 /* all.png */,
+				91E788A71F9B955700A71EC5 /* 登录页-盾牌.png */,
+				91E788A61F9B955700A71EC5 /* 登录页-输入密码.png */,
+				91E788A91F9B955700A71EC5 /* 登录页-输入用户名图标.png */,
+				91E788A81F9B955700A71EC5 /* 登录页-主页图标.png */,
+				91E788A51F9B955700A71EC5 /* 登录页.png */,
+				91E788961F9B93D500A71EC5 /* kuang.png */,
+				91E788971F9B93D500A71EC5 /* kuang_select.png */,
+				91E788981F9B93D500A71EC5 /* login_background.png */,
+				91E788991F9B93D500A71EC5 /* logo.png */,
+				91E7889A1F9B93D500A71EC5 /* logo2.png */,
+				91E7889B1F9B93D500A71EC5 /* PWDIcon.png */,
+				91E7889C1F9B93D500A71EC5 /* userIcon.png */,
+			);
+			path = login2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,8 +893,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E788A41F9B93DC00A71EC5 /* userIcon.png in Resources */,
 				91D21BC01F6E5048004F3EFE /* icon_tabbar_homepage.png in Resources */,
 				91D21B891F6E40A2004F3EFE /* tab_comment_h.png in Resources */,
+				91E788AE1F9B955F00A71EC5 /* 登录页.png in Resources */,
 				91D21AFA1F654250004F3EFE /* LaunchScreen.storyboard in Resources */,
 				91D21B9B1F6E40A9004F3EFE /* tab_relay_n.png in Resources */,
 				91D21BC11F6E5048004F3EFE /* icon_tabbar_homepage@2x.png in Resources */,
@@ -758,13 +906,18 @@
 				91D21BCE1F6E5048004F3EFE /* icon_tabbar_misc_selected.png in Resources */,
 				91D21BC21F6E5048004F3EFE /* icon_tabbar_homepage_selected.png in Resources */,
 				91D21B9E1F6E40A9004F3EFE /* tab_share_h@2x.png in Resources */,
+				91E788921F9B91C400A71EC5 /* UserInfoView.xib in Resources */,
+				91E788A11F9B93DC00A71EC5 /* logo.png in Resources */,
 				91D21B851F6E40A2004F3EFE /* btn_release@2x.png in Resources */,
 				91D21BCF1F6E5048004F3EFE /* icon_tabbar_misc_selected@2x.png in Resources */,
+				91E7889E1F9B93DC00A71EC5 /* kuang.png in Resources */,
 				91D21B8F1F6E40A9004F3EFE /* tab_me_nor@2x.png in Resources */,
 				91D21BC51F6E5048004F3EFE /* icon_tabbar_merchant_normal@2x.png in Resources */,
+				91E788AD1F9B955F00A71EC5 /* 登录页-主页图标.png in Resources */,
 				91D21B901F6E40A9004F3EFE /* tab_me_press@2x.png in Resources */,
 				917FB5391F9B37A6007DDF87 /* iconfont-user.png in Resources */,
 				91D21B831F6E405E004F3EFE /* tab_home_n.png in Resources */,
+				91E788A01F9B93DC00A71EC5 /* login_background.png in Resources */,
 				917FB53C1F9B37A6007DDF87 /* owl-login@2x.png in Resources */,
 				91D21BC71F6E5048004F3EFE /* icon_tabbar_merchant_selected@2x.png in Resources */,
 				91D21B361F67E63F004F3EFE /* RouteTableViewCell.xib in Resources */,
@@ -773,6 +926,7 @@
 				91D21B941F6E40A9004F3EFE /* tab_more_n@2x.png in Resources */,
 				91D21BC81F6E5048004F3EFE /* icon_tabbar_mine.png in Resources */,
 				91D21B921F6E40A9004F3EFE /* tab_more_h@2x.png in Resources */,
+				91E7889D1F9B93DC00A71EC5 /* all.png in Resources */,
 				917FB53A1F9B37A6007DDF87 /* owl-login-arm-left@2x.png in Resources */,
 				91D21BBF1F6E5048004F3EFE /* icon_tabbar_discovery_selected.png in Resources */,
 				91D21BCA1F6E5048004F3EFE /* icon_tabbar_mine_selected.png in Resources */,
@@ -780,8 +934,11 @@
 				91D21B8C1F6E40A2004F3EFE /* tab_comment_n@2x.png in Resources */,
 				91D21BC91F6E5048004F3EFE /* icon_tabbar_mine@2x.png in Resources */,
 				91D21BCD1F6E5048004F3EFE /* icon_tabbar_misc@2x.png in Resources */,
+				91E788AC1F9B955F00A71EC5 /* 登录页-输入用户名图标.png in Resources */,
 				91D21BC31F6E5048004F3EFE /* icon_tabbar_homepage_selected@2x.png in Resources */,
 				91D21B8D1F6E40A2004F3EFE /* tab_home_h.png in Resources */,
+				91E788AA1F9B955F00A71EC5 /* 登录页-盾牌.png in Resources */,
+				91E788931F9B91C900A71EC5 /* BtnView.xib in Resources */,
 				9163F5491F7BA65B0044D9BE /* LoginTest1ViewController.xib in Resources */,
 				91D21BC41F6E5048004F3EFE /* icon_tabbar_merchant_normal.png in Resources */,
 				91D21B9C1F6E40A9004F3EFE /* tab_relay_n@2x.png in Resources */,
@@ -793,9 +950,13 @@
 				91D21B991F6E40A9004F3EFE /* tab_relay_h.png in Resources */,
 				91D21B861F6E40A2004F3EFE /* btn_release@3x.png in Resources */,
 				9163F54B1F7BA7E30044D9BE /* icon.xcassets in Resources */,
+				91E788A21F9B93DC00A71EC5 /* logo2.png in Resources */,
 				91D21BD21F6E5048004F3EFE /* icon_tabbar_onsite@2x.png in Resources */,
+				91E788771F9B8B5300A71EC5 /* LoginTest2ViewController.xib in Resources */,
+				91E788911F9B91BF00A71EC5 /* YMFUserInfoView.xib in Resources */,
 				91D21BD51F6E5048004F3EFE /* LCTabBarBadge@2x.png in Resources */,
 				917FB5381F9B37A6007DDF87 /* iconfont-password.png in Resources */,
+				91E788A31F9B93DC00A71EC5 /* PWDIcon.png in Resources */,
 				91D21B9F1F6E40A9004F3EFE /* tab_share_n.png in Resources */,
 				91D21B8B1F6E40A2004F3EFE /* tab_comment_n.png in Resources */,
 				917FB5371F9B37A6007DDF87 /* icon_hand.png in Resources */,
@@ -807,8 +968,10 @@
 				91D21B9D1F6E40A9004F3EFE /* tab_share_h.png in Resources */,
 				91D21BC61F6E5048004F3EFE /* icon_tabbar_merchant_selected.png in Resources */,
 				91D21B8A1F6E40A2004F3EFE /* tab_comment_h@2x.png in Resources */,
+				91E788AB1F9B955F00A71EC5 /* 登录页-输入密码.png in Resources */,
 				91D21B931F6E40A9004F3EFE /* tab_more_n.png in Resources */,
 				91D21B951F6E40A9004F3EFE /* tab_qworld_nor@2x.png in Resources */,
+				91E7889F1F9B93DC00A71EC5 /* kuang_select.png in Resources */,
 				917FB53B1F9B37A6007DDF87 /* owl-login-arm-right@2x.png in Resources */,
 				91D21BD31F6E5048004F3EFE /* icon_tabbar_onsite_new@2x.png in Resources */,
 				91D21B981F6E40A9004F3EFE /* tab_recent_press@2x.png in Resources */,
@@ -889,22 +1052,35 @@
 				91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */,
 				91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */,
 				917FB5351F9B3779007DDF87 /* WSLoginView.m in Sources */,
+				91E788761F9B8B5300A71EC5 /* LoginTest2ViewController.swift in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
 				91D21B5C1F6E1984004F3EFE /* ProfileViewController.m in Sources */,
+				91E7886F1F9B895700A71EC5 /* SDProgressHUD.m in Sources */,
 				9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */,
+				91E788811F9B8E5A00A71EC5 /* BtnView.swift in Sources */,
 				917FB5261F9B1ABF007DDF87 /* UIView+SZFrame.m in Sources */,
+				91E788731F9B8A4000A71EC5 /* BundleImage.m in Sources */,
 				917FB5231F9B1ABF007DDF87 /* SZButton.m in Sources */,
 				917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */,
+				91E7888D1F9B8F2400A71EC5 /* TextFieldTool.swift in Sources */,
+				91E788901F9B900000A71EC5 /* define.swift in Sources */,
 				91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */,
 				91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */,
 				91D21BA41F6E484B004F3EFE /* ZFBaseTabBarController.m in Sources */,
 				917FB5221F9B1AB0007DDF87 /* XXXRoundMenuButton.m in Sources */,
 				91D21B351F67E63F004F3EFE /* RouteTableViewCell.m in Sources */,
 				91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */,
+				91E788871F9B8ECF00A71EC5 /* ZFXibView.swift in Sources */,
+				91E7888E1F9B8F2400A71EC5 /* UIButton+Category.swift in Sources */,
 				91D21B5F1F6E19D7004F3EFE /* CocoaChinaViewController.m in Sources */,
+				91E7888C1F9B8F2400A71EC5 /* buttonTool.swift in Sources */,
+				91E788831F9B8E6800A71EC5 /* ViewToll.m in Sources */,
 				917FB5241F9B1ABF007DDF87 /* SZFoldawayButton.m in Sources */,
 				91D21B201F65454C004F3EFE /* GlobalSets.swift in Sources */,
 				91D21B631F6E1A10004F3EFE /* Code4appViewController.swift in Sources */,
+				91E788821F9B8E6300A71EC5 /* UserInfoView.swift in Sources */,
+				91E7886B1F9B88CF00A71EC5 /* BaseViewController.m in Sources */,
+				91E788841F9B8E6C00A71EC5 /* YMFUserInfoView.swift in Sources */,
 				917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

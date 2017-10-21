@@ -33,7 +33,7 @@ extension AppDelegate{
             return true
         }
         JLRoutes.init(forScheme: "FeiYu-Login").addRoute("/Main3") { (params) -> Bool in
-            let vc = LoginViewController.init()
+            let vc = LoginTest2ViewController.init()
             vc.title = "Login"
             self.makeKeyWindow(viewController: vc)
             return true
