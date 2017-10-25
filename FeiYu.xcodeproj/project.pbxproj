@@ -25,6 +25,36 @@
 		917FB53A1F9B37A6007DDF87 /* owl-login-arm-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5301F9B3706007DDF87 /* owl-login-arm-left@2x.png */; };
 		917FB53B1F9B37A6007DDF87 /* owl-login-arm-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5311F9B3706007DDF87 /* owl-login-arm-right@2x.png */; };
 		917FB53C1F9B37A6007DDF87 /* owl-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917FB5321F9B3706007DDF87 /* owl-login@2x.png */; };
+		9195734B1F9F79BD00CA0A27 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195732F1F9F79BD00CA0A27 /* NewsCell.m */; };
+		9195734C1F9F79BD00CA0A27 /* SwiftVInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573311F9F79BD00CA0A27 /* SwiftVInfoCell.m */; };
+		9195734D1F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573331F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m */; };
+		9195734E1F9F79BD00CA0A27 /* CustomNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573351F9F79BD00CA0A27 /* CustomNewsViewController.m */; };
+		9195734F1F9F79BD00CA0A27 /* NewsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573371F9F79BD00CA0A27 /* NewsMainViewController.m */; };
+		919573501F9F79BD00CA0A27 /* NewsToSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919573381F9F79BD00CA0A27 /* NewsToSwift.swift */; };
+		919573511F9F79BD00CA0A27 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195733A1F9F79BD00CA0A27 /* NewsViewController.m */; };
+		919573521F9F79BD00CA0A27 /* NewsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195733C1F9F79BD00CA0A27 /* NewsWebViewController.m */; };
+		919573531F9F79BD00CA0A27 /* SwiftVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195733E1F9F79BD00CA0A27 /* SwiftVViewController.m */; };
+		919573541F9F79BD00CA0A27 /* SXTitleLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573411F9F79BD00CA0A27 /* SXTitleLable.m */; };
+		919573551F9F79BD00CA0A27 /* NewsInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573441F9F79BD00CA0A27 /* NewsInfoCell.m */; };
+		919573561F9F79BD00CA0A27 /* NewsInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919573451F9F79BD00CA0A27 /* NewsInfoCell.xib */; };
+		919573571F9F79BD00CA0A27 /* SwiftInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573471F9F79BD00CA0A27 /* SwiftInfoCell.m */; };
+		919573581F9F79BD00CA0A27 /* SwiftInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919573481F9F79BD00CA0A27 /* SwiftInfoCell.xib */; };
+		919573591F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919573491F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.swift */; };
+		9195735A1F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9195734A1F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.xib */; };
+		919573661F9F7A2900CA0A27 /* ZFPopBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195735D1F9F7A2800CA0A27 /* ZFPopBaseViewController.m */; };
+		919573671F9F7A2900CA0A27 /* ZFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195735F1F9F7A2800CA0A27 /* ZFTableView.m */; };
+		919573681F9F7A2900CA0A27 /* ZFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573611F9F7A2800CA0A27 /* ZFTableViewCell.m */; };
+		919573691F9F7A2900CA0A27 /* ZFTableViewCellFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573631F9F7A2800CA0A27 /* ZFTableViewCellFrameModel.m */; };
+		9195736A1F9F7A2900CA0A27 /* ZFTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573651F9F7A2800CA0A27 /* ZFTableViewCellModel.m */; };
+		9195736D1F9F7C3F00CA0A27 /* ZFStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195736C1F9F7C3F00CA0A27 /* ZFStringTool.m */; };
+		919573711F9F822B00CA0A27 /* ZFAFNetworkingToll.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573701F9F822B00CA0A27 /* ZFAFNetworkingToll.m */; };
+		919573791F9F82C500CA0A27 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573741F9F82C400CA0A27 /* NSArray+Log.m */; };
+		9195737A1F9F82C500CA0A27 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573761F9F82C400CA0A27 /* NSString+Regex.m */; };
+		9195737B1F9F82C500CA0A27 /* ZFSpiderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573781F9F82C400CA0A27 /* ZFSpiderTool.m */; };
+		9195737E1F9F831E00CA0A27 /* CustomViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195737C1F9F831E00CA0A27 /* CustomViewTool.m */; };
+		919573811F9F835900CA0A27 /* XWDataCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195737F1F9F835900CA0A27 /* XWDataCacheTool.m */; };
+		919573851FA0D91500CA0A27 /* CocoachinaNewsInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919573831FA0D91500CA0A27 /* CocoachinaNewsInfos.plist */; };
+		919573861FA0D91500CA0A27 /* SwiftVNewsInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919573841FA0D91500CA0A27 /* SwiftVNewsInfos.plist */; };
 		91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AEF1F654250004F3EFE /* AppDelegate.swift */; };
 		91D21AF21F654250004F3EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AF11F654250004F3EFE /* ViewController.swift */; };
 		91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF61F654250004F3EFE /* Assets.xcassets */; };
@@ -173,6 +203,59 @@
 		917FB5321F9B3706007DDF87 /* owl-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "owl-login@2x.png"; sourceTree = "<group>"; };
 		917FB5331F9B3706007DDF87 /* WSLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLoginView.h; sourceTree = "<group>"; };
 		917FB5341F9B3706007DDF87 /* WSLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLoginView.m; sourceTree = "<group>"; };
+		9195732E1F9F79BD00CA0A27 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		9195732F1F9F79BD00CA0A27 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		919573301F9F79BD00CA0A27 /* SwiftVInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftVInfoCell.h; sourceTree = "<group>"; };
+		919573311F9F79BD00CA0A27 /* SwiftVInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftVInfoCell.m; sourceTree = "<group>"; };
+		919573321F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftVInfoCellFrameModel.h; sourceTree = "<group>"; };
+		919573331F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftVInfoCellFrameModel.m; sourceTree = "<group>"; };
+		919573341F9F79BD00CA0A27 /* CustomNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNewsViewController.h; sourceTree = "<group>"; };
+		919573351F9F79BD00CA0A27 /* CustomNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNewsViewController.m; sourceTree = "<group>"; };
+		919573361F9F79BD00CA0A27 /* NewsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsMainViewController.h; sourceTree = "<group>"; };
+		919573371F9F79BD00CA0A27 /* NewsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsMainViewController.m; sourceTree = "<group>"; };
+		919573381F9F79BD00CA0A27 /* NewsToSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsToSwift.swift; sourceTree = "<group>"; };
+		919573391F9F79BD00CA0A27 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		9195733A1F9F79BD00CA0A27 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		9195733B1F9F79BD00CA0A27 /* NewsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWebViewController.h; sourceTree = "<group>"; };
+		9195733C1F9F79BD00CA0A27 /* NewsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWebViewController.m; sourceTree = "<group>"; };
+		9195733D1F9F79BD00CA0A27 /* SwiftVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftVViewController.h; sourceTree = "<group>"; };
+		9195733E1F9F79BD00CA0A27 /* SwiftVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftVViewController.m; sourceTree = "<group>"; };
+		919573401F9F79BD00CA0A27 /* SXTitleLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXTitleLable.h; sourceTree = "<group>"; };
+		919573411F9F79BD00CA0A27 /* SXTitleLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXTitleLable.m; sourceTree = "<group>"; };
+		919573431F9F79BD00CA0A27 /* NewsInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsInfoCell.h; sourceTree = "<group>"; };
+		919573441F9F79BD00CA0A27 /* NewsInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsInfoCell.m; sourceTree = "<group>"; };
+		919573451F9F79BD00CA0A27 /* NewsInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsInfoCell.xib; sourceTree = "<group>"; };
+		919573461F9F79BD00CA0A27 /* SwiftInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftInfoCell.h; sourceTree = "<group>"; };
+		919573471F9F79BD00CA0A27 /* SwiftInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftInfoCell.m; sourceTree = "<group>"; };
+		919573481F9F79BD00CA0A27 /* SwiftInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftInfoCell.xib; sourceTree = "<group>"; };
+		919573491F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftInfoCellTableViewCell.swift; sourceTree = "<group>"; };
+		9195734A1F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftInfoCellTableViewCell.xib; sourceTree = "<group>"; };
+		9195735C1F9F7A2800CA0A27 /* ZFPopBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPopBaseViewController.h; sourceTree = "<group>"; };
+		9195735D1F9F7A2800CA0A27 /* ZFPopBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPopBaseViewController.m; sourceTree = "<group>"; };
+		9195735E1F9F7A2800CA0A27 /* ZFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableView.h; sourceTree = "<group>"; };
+		9195735F1F9F7A2800CA0A27 /* ZFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableView.m; sourceTree = "<group>"; };
+		919573601F9F7A2800CA0A27 /* ZFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCell.h; sourceTree = "<group>"; };
+		919573611F9F7A2800CA0A27 /* ZFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCell.m; sourceTree = "<group>"; };
+		919573621F9F7A2800CA0A27 /* ZFTableViewCellFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellFrameModel.h; sourceTree = "<group>"; };
+		919573631F9F7A2800CA0A27 /* ZFTableViewCellFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellFrameModel.m; sourceTree = "<group>"; };
+		919573641F9F7A2800CA0A27 /* ZFTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellModel.h; sourceTree = "<group>"; };
+		919573651F9F7A2800CA0A27 /* ZFTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellModel.m; sourceTree = "<group>"; };
+		9195736B1F9F7C3F00CA0A27 /* ZFStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFStringTool.h; sourceTree = "<group>"; };
+		9195736C1F9F7C3F00CA0A27 /* ZFStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFStringTool.m; sourceTree = "<group>"; };
+		9195736F1F9F822B00CA0A27 /* ZFAFNetworkingToll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAFNetworkingToll.h; sourceTree = "<group>"; };
+		919573701F9F822B00CA0A27 /* ZFAFNetworkingToll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAFNetworkingToll.m; sourceTree = "<group>"; };
+		919573731F9F82C400CA0A27 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		919573741F9F82C400CA0A27 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		919573751F9F82C400CA0A27 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		919573761F9F82C400CA0A27 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		919573771F9F82C400CA0A27 /* ZFSpiderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFSpiderTool.h; sourceTree = "<group>"; };
+		919573781F9F82C400CA0A27 /* ZFSpiderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFSpiderTool.m; sourceTree = "<group>"; };
+		9195737C1F9F831E00CA0A27 /* CustomViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewTool.m; sourceTree = "<group>"; };
+		9195737D1F9F831E00CA0A27 /* CustomViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewTool.h; sourceTree = "<group>"; };
+		9195737F1F9F835900CA0A27 /* XWDataCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDataCacheTool.m; sourceTree = "<group>"; };
+		919573801F9F835900CA0A27 /* XWDataCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDataCacheTool.h; sourceTree = "<group>"; };
+		919573831FA0D91500CA0A27 /* CocoachinaNewsInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CocoachinaNewsInfos.plist; sourceTree = "<group>"; };
+		919573841FA0D91500CA0A27 /* SwiftVNewsInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwiftVNewsInfos.plist; sourceTree = "<group>"; };
 		91D21AEC1F654250004F3EFE /* FeiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D21AEF1F654250004F3EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D21AF11F654250004F3EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -383,6 +466,113 @@
 			path = WSLoginView;
 			sourceTree = "<group>";
 		};
+		9195732C1F9F79BD00CA0A27 /* NewsToSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9195732D1F9F79BD00CA0A27 /* Cell */,
+				919573341F9F79BD00CA0A27 /* CustomNewsViewController.h */,
+				919573351F9F79BD00CA0A27 /* CustomNewsViewController.m */,
+				919573361F9F79BD00CA0A27 /* NewsMainViewController.h */,
+				919573371F9F79BD00CA0A27 /* NewsMainViewController.m */,
+				919573381F9F79BD00CA0A27 /* NewsToSwift.swift */,
+				919573391F9F79BD00CA0A27 /* NewsViewController.h */,
+				9195733A1F9F79BD00CA0A27 /* NewsViewController.m */,
+				9195733B1F9F79BD00CA0A27 /* NewsWebViewController.h */,
+				9195733C1F9F79BD00CA0A27 /* NewsWebViewController.m */,
+				9195733D1F9F79BD00CA0A27 /* SwiftVViewController.h */,
+				9195733E1F9F79BD00CA0A27 /* SwiftVViewController.m */,
+				9195733F1F9F79BD00CA0A27 /* View */,
+				919573421F9F79BD00CA0A27 /* xib */,
+			);
+			path = NewsToSwift;
+			sourceTree = "<group>";
+		};
+		9195732D1F9F79BD00CA0A27 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9195732E1F9F79BD00CA0A27 /* NewsCell.h */,
+				9195732F1F9F79BD00CA0A27 /* NewsCell.m */,
+				919573301F9F79BD00CA0A27 /* SwiftVInfoCell.h */,
+				919573311F9F79BD00CA0A27 /* SwiftVInfoCell.m */,
+				919573321F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.h */,
+				919573331F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9195733F1F9F79BD00CA0A27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				919573401F9F79BD00CA0A27 /* SXTitleLable.h */,
+				919573411F9F79BD00CA0A27 /* SXTitleLable.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		919573421F9F79BD00CA0A27 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				919573431F9F79BD00CA0A27 /* NewsInfoCell.h */,
+				919573441F9F79BD00CA0A27 /* NewsInfoCell.m */,
+				919573451F9F79BD00CA0A27 /* NewsInfoCell.xib */,
+				919573461F9F79BD00CA0A27 /* SwiftInfoCell.h */,
+				919573471F9F79BD00CA0A27 /* SwiftInfoCell.m */,
+				919573481F9F79BD00CA0A27 /* SwiftInfoCell.xib */,
+				919573491F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.swift */,
+				9195734A1F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		9195735B1F9F7A2800CA0A27 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				9195735C1F9F7A2800CA0A27 /* ZFPopBaseViewController.h */,
+				9195735D1F9F7A2800CA0A27 /* ZFPopBaseViewController.m */,
+				9195735E1F9F7A2800CA0A27 /* ZFTableView.h */,
+				9195735F1F9F7A2800CA0A27 /* ZFTableView.m */,
+				919573601F9F7A2800CA0A27 /* ZFTableViewCell.h */,
+				919573611F9F7A2800CA0A27 /* ZFTableViewCell.m */,
+				919573621F9F7A2800CA0A27 /* ZFTableViewCellFrameModel.h */,
+				919573631F9F7A2800CA0A27 /* ZFTableViewCellFrameModel.m */,
+				919573641F9F7A2800CA0A27 /* ZFTableViewCellModel.h */,
+				919573651F9F7A2800CA0A27 /* ZFTableViewCellModel.m */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		9195736E1F9F822B00CA0A27 /* AFN */ = {
+			isa = PBXGroup;
+			children = (
+				919573721F9F82C400CA0A27 /* Spider */,
+				9195736F1F9F822B00CA0A27 /* ZFAFNetworkingToll.h */,
+				919573701F9F822B00CA0A27 /* ZFAFNetworkingToll.m */,
+			);
+			path = AFN;
+			sourceTree = "<group>";
+		};
+		919573721F9F82C400CA0A27 /* Spider */ = {
+			isa = PBXGroup;
+			children = (
+				919573731F9F82C400CA0A27 /* NSArray+Log.h */,
+				919573741F9F82C400CA0A27 /* NSArray+Log.m */,
+				919573751F9F82C400CA0A27 /* NSString+Regex.h */,
+				919573761F9F82C400CA0A27 /* NSString+Regex.m */,
+				919573771F9F82C400CA0A27 /* ZFSpiderTool.h */,
+				919573781F9F82C400CA0A27 /* ZFSpiderTool.m */,
+			);
+			path = Spider;
+			sourceTree = "<group>";
+		};
+		919573821FA0D91500CA0A27 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				919573831FA0D91500CA0A27 /* CocoachinaNewsInfos.plist */,
+				919573841FA0D91500CA0A27 /* SwiftVNewsInfos.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
 		91972ED01F7B9D07007534EC /* CYLTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,6 +682,7 @@
 		91D21B271F658C0B004F3EFE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				919573821FA0D91500CA0A27 /* plist */,
 				91D21B2B1F658C51004F3EFE /* img */,
 				91D21B2A1F658C25004F3EFE /* storyboard */,
 			);
@@ -501,6 +692,8 @@
 		91D21B281F658C0B004F3EFE /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				9195736E1F9F822B00CA0A27 /* AFN */,
+				9195735B1F9F7A2800CA0A27 /* tableview */,
 				91E7886C1F9B895100A71EC5 /* SDProgressHUD */,
 				917FB52B1F9B3706007DDF87 /* WSLoginView */,
 				917FB5161F9B1AA3007DDF87 /* Menu */,
@@ -598,6 +791,7 @@
 		91D21B561F6E18FB004F3EFE /* CocoaChina */ = {
 			isa = PBXGroup;
 			children = (
+				9195732C1F9F79BD00CA0A27 /* NewsToSwift */,
 				91D21B5D1F6E19D7004F3EFE /* CocoaChinaViewController.h */,
 				91D21B5E1F6E19D7004F3EFE /* CocoaChinaViewController.m */,
 			);
@@ -751,6 +945,12 @@
 			children = (
 				91E788881F9B8F1C00A71EC5 /* ViewTool */,
 				91E788861F9B8EC700A71EC5 /* ZFXibView.swift */,
+				9195736B1F9F7C3F00CA0A27 /* ZFStringTool.h */,
+				9195736C1F9F7C3F00CA0A27 /* ZFStringTool.m */,
+				9195737D1F9F831E00CA0A27 /* CustomViewTool.h */,
+				9195737C1F9F831E00CA0A27 /* CustomViewTool.m */,
+				919573801F9F835900CA0A27 /* XWDataCacheTool.h */,
+				9195737F1F9F835900CA0A27 /* XWDataCacheTool.m */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -940,6 +1140,7 @@
 				91E788AA1F9B955F00A71EC5 /* 登录页-盾牌.png in Resources */,
 				91E788931F9B91C900A71EC5 /* BtnView.xib in Resources */,
 				9163F5491F7BA65B0044D9BE /* LoginTest1ViewController.xib in Resources */,
+				919573851FA0D91500CA0A27 /* CocoachinaNewsInfos.plist in Resources */,
 				91D21BC41F6E5048004F3EFE /* icon_tabbar_merchant_normal.png in Resources */,
 				91D21B9C1F6E40A9004F3EFE /* tab_relay_n@2x.png in Resources */,
 				91D21B911F6E40A9004F3EFE /* tab_more_h.png in Resources */,
@@ -962,20 +1163,24 @@
 				917FB5371F9B37A6007DDF87 /* icon_hand.png in Resources */,
 				917FB5361F9B37A6007DDF87 /* bg.jpeg in Resources */,
 				917FB5131F934ACD007DDF87 /* login1.png in Resources */,
+				9195735A1F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.xib in Resources */,
 				91D21BD41F6E5048004F3EFE /* icon_tabbar_onsite_selected@2x.png in Resources */,
 				91D21BCC1F6E5048004F3EFE /* icon_tabbar_misc.png in Resources */,
 				91D21BA01F6E40A9004F3EFE /* tab_share_n@2x.png in Resources */,
 				91D21B9D1F6E40A9004F3EFE /* tab_share_h.png in Resources */,
+				919573861FA0D91500CA0A27 /* SwiftVNewsInfos.plist in Resources */,
 				91D21BC61F6E5048004F3EFE /* icon_tabbar_merchant_selected.png in Resources */,
 				91D21B8A1F6E40A2004F3EFE /* tab_comment_h@2x.png in Resources */,
 				91E788AB1F9B955F00A71EC5 /* 登录页-输入密码.png in Resources */,
 				91D21B931F6E40A9004F3EFE /* tab_more_n.png in Resources */,
 				91D21B951F6E40A9004F3EFE /* tab_qworld_nor@2x.png in Resources */,
 				91E7889F1F9B93DC00A71EC5 /* kuang_select.png in Resources */,
+				919573581F9F79BD00CA0A27 /* SwiftInfoCell.xib in Resources */,
 				917FB53B1F9B37A6007DDF87 /* owl-login-arm-right@2x.png in Resources */,
 				91D21BD31F6E5048004F3EFE /* icon_tabbar_onsite_new@2x.png in Resources */,
 				91D21B981F6E40A9004F3EFE /* tab_recent_press@2x.png in Resources */,
 				91D21B971F6E40A9004F3EFE /* tab_recent_nor@2x.png in Resources */,
+				919573561F9F79BD00CA0A27 /* NewsInfoCell.xib in Resources */,
 				91D21BBE1F6E5048004F3EFE /* icon_tabbar_discovery.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1049,8 +1254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9195734E1F9F79BD00CA0A27 /* CustomNewsViewController.m in Sources */,
+				9195736A1F9F7A2900CA0A27 /* ZFTableViewCellModel.m in Sources */,
 				91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */,
 				91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */,
+				919573661F9F7A2900CA0A27 /* ZFPopBaseViewController.m in Sources */,
 				917FB5351F9B3779007DDF87 /* WSLoginView.m in Sources */,
 				91E788761F9B8B5300A71EC5 /* LoginTest2ViewController.swift in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
@@ -1058,21 +1266,42 @@
 				91E7886F1F9B895700A71EC5 /* SDProgressHUD.m in Sources */,
 				9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */,
 				91E788811F9B8E5A00A71EC5 /* BtnView.swift in Sources */,
+				919573681F9F7A2900CA0A27 /* ZFTableViewCell.m in Sources */,
+				919573671F9F7A2900CA0A27 /* ZFTableView.m in Sources */,
 				917FB5261F9B1ABF007DDF87 /* UIView+SZFrame.m in Sources */,
 				91E788731F9B8A4000A71EC5 /* BundleImage.m in Sources */,
+				919573691F9F7A2900CA0A27 /* ZFTableViewCellFrameModel.m in Sources */,
+				919573521F9F79BD00CA0A27 /* NewsWebViewController.m in Sources */,
 				917FB5231F9B1ABF007DDF87 /* SZButton.m in Sources */,
+				919573571F9F79BD00CA0A27 /* SwiftInfoCell.m in Sources */,
+				9195737A1F9F82C500CA0A27 /* NSString+Regex.m in Sources */,
+				9195734D1F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m in Sources */,
+				919573541F9F79BD00CA0A27 /* SXTitleLable.m in Sources */,
 				917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */,
+				919573711F9F822B00CA0A27 /* ZFAFNetworkingToll.m in Sources */,
 				91E7888D1F9B8F2400A71EC5 /* TextFieldTool.swift in Sources */,
 				91E788901F9B900000A71EC5 /* define.swift in Sources */,
 				91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */,
+				919573791F9F82C500CA0A27 /* NSArray+Log.m in Sources */,
+				9195734F1F9F79BD00CA0A27 /* NewsMainViewController.m in Sources */,
+				9195734C1F9F79BD00CA0A27 /* SwiftVInfoCell.m in Sources */,
 				91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */,
+				919573591F9F79BD00CA0A27 /* SwiftInfoCellTableViewCell.swift in Sources */,
+				9195737E1F9F831E00CA0A27 /* CustomViewTool.m in Sources */,
 				91D21BA41F6E484B004F3EFE /* ZFBaseTabBarController.m in Sources */,
 				917FB5221F9B1AB0007DDF87 /* XXXRoundMenuButton.m in Sources */,
+				919573501F9F79BD00CA0A27 /* NewsToSwift.swift in Sources */,
 				91D21B351F67E63F004F3EFE /* RouteTableViewCell.m in Sources */,
 				91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */,
+				919573531F9F79BD00CA0A27 /* SwiftVViewController.m in Sources */,
 				91E788871F9B8ECF00A71EC5 /* ZFXibView.swift in Sources */,
+				919573811F9F835900CA0A27 /* XWDataCacheTool.m in Sources */,
+				919573511F9F79BD00CA0A27 /* NewsViewController.m in Sources */,
+				9195736D1F9F7C3F00CA0A27 /* ZFStringTool.m in Sources */,
+				9195734B1F9F79BD00CA0A27 /* NewsCell.m in Sources */,
 				91E7888E1F9B8F2400A71EC5 /* UIButton+Category.swift in Sources */,
 				91D21B5F1F6E19D7004F3EFE /* CocoaChinaViewController.m in Sources */,
+				919573551F9F79BD00CA0A27 /* NewsInfoCell.m in Sources */,
 				91E7888C1F9B8F2400A71EC5 /* buttonTool.swift in Sources */,
 				91E788831F9B8E6800A71EC5 /* ViewToll.m in Sources */,
 				917FB5241F9B1ABF007DDF87 /* SZFoldawayButton.m in Sources */,
@@ -1081,6 +1310,7 @@
 				91E788821F9B8E6300A71EC5 /* UserInfoView.swift in Sources */,
 				91E7886B1F9B88CF00A71EC5 /* BaseViewController.m in Sources */,
 				91E788841F9B8E6C00A71EC5 /* YMFUserInfoView.swift in Sources */,
+				9195737B1F9F82C500CA0A27 /* ZFSpiderTool.m in Sources */,
 				917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

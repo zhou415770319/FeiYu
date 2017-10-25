@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "SDProgressHUD.h"
+#import "ZFTableView.h"
+
 
 @interface BaseViewController : UIViewController<SDProgressHUDDelegate>
 @property (nonatomic, strong) SDProgressHUD *progressHUD;

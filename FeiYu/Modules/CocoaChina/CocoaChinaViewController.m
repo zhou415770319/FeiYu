@@ -8,7 +8,7 @@
 
 #import "CocoaChinaViewController.h"
 #import "PreViewViewController.h"
-
+#import "NewsMainViewController.h"
 @interface CocoaChinaViewController ()
 @property (nonatomic,strong) NSMutableArray * VCS;//tabbar root VC
 @end
@@ -25,7 +25,7 @@
 -(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
      /**** 添加子控制器 ****/
-    [self setupOneChildViewController:[[UITableViewController alloc] init] title:nil image:@"tab_home_n" selectedImage:@"tab_home_h"];
+    [self setupOneChildViewController:[[NewsMainViewController alloc] init] title:nil image:@"tab_home_n" selectedImage:@"tab_home_h"];
     [self setupOneChildViewController:[[UITableViewController alloc] init] title:nil image:nil selectedImage:nil];
     [self setupOneChildViewController:[[UITableViewController alloc] init] title:@"我" image:@"tab_buddy_nor" selectedImage:@"tab_buddy_press"];
     

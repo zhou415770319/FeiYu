@@ -30,6 +30,10 @@
         NSLog(@"点击了登录按钮textField1 = %@   textField2 = %@",textField1Text,textField2Text);
         UIAlertView *alertV = [[UIAlertView alloc]initWithTitle:@"登录按钮事件" message:[NSString stringWithFormat:@"账号：%@\n密码：%@",textField1Text,textField2Text] delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alertV show];
+        
+        NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-CocoaC"];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
+        
     }];
     
     
@@ -50,12 +54,12 @@
     // Do any additional setup after loading the view.
 }
 
--(void)btnClick:(UIButton *)sender{
-    
-    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-CocoaC"];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
-    
-}
+//-(void)btnClick:(UIButton *)sender{
+//    
+//    NSString *customURL = [NSString stringWithFormat:@"%@://Main",@"FeiYu-CocoaC"];
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
+//    
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
