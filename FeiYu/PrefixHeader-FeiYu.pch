@@ -9,10 +9,11 @@
 #ifndef PrefixHeader_FeiYu_pch
 #define PrefixHeader_FeiYu_pch
 
+#import "FeiYu-Swift.h"
 //全局宏
 #import "UtilsMacros.h"
 #import "URLRouteMacros.h"
-
+#import "FontAndColorMacros.h"
 
 
 #import "ZFTableView.h"
@@ -23,6 +24,10 @@
 #import "ZFSpiderTool.h"
 #import "CustomViewTool.h"
 #import "FMDB.h"
+#import "YYKit.h"
+#import "RootNavigationController.h"
+#import "RootViewController.h"
+#import "AppManager.h"
 
 
 #endif /* PrefixHeader_FeiYu_pch */

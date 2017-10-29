@@ -55,6 +55,25 @@
 		919573811F9F835900CA0A27 /* XWDataCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195737F1F9F835900CA0A27 /* XWDataCacheTool.m */; };
 		919573851FA0D91500CA0A27 /* CocoachinaNewsInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919573831FA0D91500CA0A27 /* CocoachinaNewsInfos.plist */; };
 		919573861FA0D91500CA0A27 /* SwiftVNewsInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919573841FA0D91500CA0A27 /* SwiftVNewsInfos.plist */; };
+		919573891FA0E08300CA0A27 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573871FA0E08200CA0A27 /* AppManager.m */; };
+		919573911FA0E10100CA0A27 /* AdPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573901FA0E10000CA0A27 /* AdPageView.m */; };
+		919573971FA0E1A600CA0A27 /* JSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573941FA0E1A600CA0A27 /* JSWebViewController.m */; };
+		919573981FA0E1A600CA0A27 /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573961FA0E1A600CA0A27 /* RootWebViewController.m */; };
+		9195739C1FA0E1E100CA0A27 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195739B1FA0E1E000CA0A27 /* RootViewController.m */; };
+		919573A01FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195739F1FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.m */; };
+		919573B21FA0E33B00CA0A27 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573A41FA0E33B00CA0A27 /* libSocialQQ.a */; };
+		919573B31FA0E33B00CA0A27 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573A71FA0E33B00CA0A27 /* libSocialWeChat.a */; };
+		919573B41FA0E33B00CA0A27 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573AA1FA0E33B00CA0A27 /* UMSocialCore.framework */; };
+		919573B51FA0E33B00CA0A27 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573AB1FA0E33B00CA0A27 /* UMSocialNetwork.framework */; };
+		919573B61FA0E33B00CA0A27 /* UMSocialSDKPromptResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 919573AC1FA0E33B00CA0A27 /* UMSocialSDKPromptResources.bundle */; };
+		919573B71FA0E33B00CA0A27 /* libUMSocialLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573AE1FA0E33B00CA0A27 /* libUMSocialLog.a */; };
+		919573B81FA0E33B00CA0A27 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 919573B01FA0E33B00CA0A27 /* UMSocialSDKResources.bundle */; };
+		919573B91FA0E33B00CA0A27 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919573B11FA0E33B00CA0A27 /* UShareUI.framework */; };
+		919573BD1FA0E3D500CA0A27 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573BC1FA0E3D400CA0A27 /* YYFPSLabel.m */; };
+		919573C11FA0E45900CA0A27 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573C01FA0E45800CA0A27 /* RootNavigationController.m */; };
+		919573C61FA0E72200CA0A27 /* XYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573C41FA0E72100CA0A27 /* XYTransition.m */; };
+		919573C91FA0F0BE00CA0A27 /* SwiftVMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919573C81FA0F0BE00CA0A27 /* SwiftVMainViewController.swift */; };
+		919573F51FA2BD9500CA0A27 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919573F31FA2BD9400CA0A27 /* ProfileViewController.m */; };
 		91D21AF01F654250004F3EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AEF1F654250004F3EFE /* AppDelegate.swift */; };
 		91D21AF21F654250004F3EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21AF11F654250004F3EFE /* ViewController.swift */; };
 		91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D21AF61F654250004F3EFE /* Assets.xcassets */; };
@@ -67,9 +86,7 @@
 		91D21B361F67E63F004F3EFE /* RouteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D21B341F67E63F004F3EFE /* RouteTableViewCell.xib */; };
 		91D21B501F6D0D48004F3EFE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */; };
 		91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B531F6D2387004F3EFE /* PreViewViewController.m */; };
-		91D21B5C1F6E1984004F3EFE /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B5B1F6E1984004F3EFE /* ProfileViewController.m */; };
 		91D21B5F1F6E19D7004F3EFE /* CocoaChinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B5E1F6E19D7004F3EFE /* CocoaChinaViewController.m */; };
-		91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B601F6E19F7004F3EFE /* SwiftVViewController.swift */; };
 		91D21B631F6E1A10004F3EFE /* Code4appViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D21B621F6E1A10004F3EFE /* Code4appViewController.swift */; };
 		91D21B831F6E405E004F3EFE /* tab_home_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D21B6F1F6E3F54004F3EFE /* tab_home_n.png */; };
 		91D21B841F6E4062004F3EFE /* tab_home_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D21B701F6E3F54004F3EFE /* tab_home_n@2x.png */; };
@@ -256,6 +273,39 @@
 		919573801F9F835900CA0A27 /* XWDataCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDataCacheTool.h; sourceTree = "<group>"; };
 		919573831FA0D91500CA0A27 /* CocoachinaNewsInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CocoachinaNewsInfos.plist; sourceTree = "<group>"; };
 		919573841FA0D91500CA0A27 /* SwiftVNewsInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwiftVNewsInfos.plist; sourceTree = "<group>"; };
+		919573871FA0E08200CA0A27 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		919573881FA0E08300CA0A27 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		9195738F1FA0E10000CA0A27 /* AdPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdPageView.h; sourceTree = "<group>"; };
+		919573901FA0E10000CA0A27 /* AdPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdPageView.m; sourceTree = "<group>"; };
+		919573931FA0E1A600CA0A27 /* JSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWebViewController.h; sourceTree = "<group>"; };
+		919573941FA0E1A600CA0A27 /* JSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWebViewController.m; sourceTree = "<group>"; };
+		919573951FA0E1A600CA0A27 /* RootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWebViewController.h; sourceTree = "<group>"; };
+		919573961FA0E1A600CA0A27 /* RootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWebViewController.m; sourceTree = "<group>"; };
+		9195739A1FA0E1E000CA0A27 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9195739B1FA0E1E000CA0A27 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9195739E1FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
+		9195739F1FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
+		919573A41FA0E33B00CA0A27 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		919573A51FA0E33B00CA0A27 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		919573A71FA0E33B00CA0A27 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		919573A81FA0E33B00CA0A27 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		919573AA1FA0E33B00CA0A27 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		919573AB1FA0E33B00CA0A27 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		919573AC1FA0E33B00CA0A27 /* UMSocialSDKPromptResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKPromptResources.bundle; sourceTree = "<group>"; };
+		919573AE1FA0E33B00CA0A27 /* libUMSocialLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocialLog.a; sourceTree = "<group>"; };
+		919573B01FA0E33B00CA0A27 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		919573B11FA0E33B00CA0A27 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		919573BB1FA0E3D400CA0A27 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		919573BC1FA0E3D400CA0A27 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		919573BF1FA0E45800CA0A27 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		919573C01FA0E45800CA0A27 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		919573C31FA0E72100CA0A27 /* XYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransition.h; sourceTree = "<group>"; };
+		919573C41FA0E72100CA0A27 /* XYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTransition.m; sourceTree = "<group>"; };
+		919573C51FA0E72100CA0A27 /* XYTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransitionProtocol.h; sourceTree = "<group>"; };
+		919573C71FA0E80000CA0A27 /* FontAndColorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		919573C81FA0F0BE00CA0A27 /* SwiftVMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVMainViewController.swift; sourceTree = "<group>"; };
+		919573F31FA2BD9400CA0A27 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		919573F41FA2BD9400CA0A27 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		91D21AEC1F654250004F3EFE /* FeiYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D21AEF1F654250004F3EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91D21AF11F654250004F3EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -282,11 +332,8 @@
 		91D21B4F1F6D0D42004F3EFE /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		91D21B521F6D2387004F3EFE /* PreViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreViewViewController.h; sourceTree = "<group>"; };
 		91D21B531F6D2387004F3EFE /* PreViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreViewViewController.m; sourceTree = "<group>"; };
-		91D21B5A1F6E1984004F3EFE /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		91D21B5B1F6E1984004F3EFE /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		91D21B5D1F6E19D7004F3EFE /* CocoaChinaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaChinaViewController.h; sourceTree = "<group>"; };
 		91D21B5E1F6E19D7004F3EFE /* CocoaChinaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaChinaViewController.m; sourceTree = "<group>"; };
-		91D21B601F6E19F7004F3EFE /* SwiftVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVViewController.swift; sourceTree = "<group>"; };
 		91D21B621F6E1A10004F3EFE /* Code4appViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code4appViewController.swift; sourceTree = "<group>"; };
 		91D21B651F6E3F54004F3EFE /* btn_release@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_release@2x.png"; sourceTree = "<group>"; };
 		91D21B661F6E3F54004F3EFE /* btn_release@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_release@3x.png"; sourceTree = "<group>"; };
@@ -387,6 +434,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919573B41FA0E33B00CA0A27 /* UMSocialCore.framework in Frameworks */,
+				919573B21FA0E33B00CA0A27 /* libSocialQQ.a in Frameworks */,
+				919573B51FA0E33B00CA0A27 /* UMSocialNetwork.framework in Frameworks */,
+				919573B91FA0E33B00CA0A27 /* UShareUI.framework in Frameworks */,
+				919573B71FA0E33B00CA0A27 /* libUMSocialLog.a in Frameworks */,
+				919573B31FA0E33B00CA0A27 /* libSocialWeChat.a in Frameworks */,
 				F9F38E568747279C1C9C1613 /* Pods_FeiYu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +626,137 @@
 			path = plist;
 			sourceTree = "<group>";
 		};
+		9195738E1FA0E10000CA0A27 /* AdPage */ = {
+			isa = PBXGroup;
+			children = (
+				9195738F1FA0E10000CA0A27 /* AdPageView.h */,
+				919573901FA0E10000CA0A27 /* AdPageView.m */,
+			);
+			path = AdPage;
+			sourceTree = "<group>";
+		};
+		919573921FA0E1A600CA0A27 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				919573931FA0E1A600CA0A27 /* JSWebViewController.h */,
+				919573941FA0E1A600CA0A27 /* JSWebViewController.m */,
+				919573951FA0E1A600CA0A27 /* RootWebViewController.h */,
+				919573961FA0E1A600CA0A27 /* RootWebViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		919573991FA0E1E000CA0A27 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9195739A1FA0E1E000CA0A27 /* RootViewController.h */,
+				9195739B1FA0E1E000CA0A27 /* RootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		9195739D1FA0E27F00CA0A27 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9195739E1FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.h */,
+				9195739F1FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		919573A11FA0E33B00CA0A27 /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				919573A21FA0E33B00CA0A27 /* SocialLibraries */,
+				919573A91FA0E33B00CA0A27 /* UMSocialSDK */,
+				919573AD1FA0E33B00CA0A27 /* UMSocialSDKPlugin */,
+				919573AF1FA0E33B00CA0A27 /* UMSocialUI */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		919573A21FA0E33B00CA0A27 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				919573A31FA0E33B00CA0A27 /* QQ */,
+				919573A61FA0E33B00CA0A27 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		919573A31FA0E33B00CA0A27 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				919573A41FA0E33B00CA0A27 /* libSocialQQ.a */,
+				919573A51FA0E33B00CA0A27 /* UMSocialQQHandler.h */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		919573A61FA0E33B00CA0A27 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				919573A71FA0E33B00CA0A27 /* libSocialWeChat.a */,
+				919573A81FA0E33B00CA0A27 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		919573A91FA0E33B00CA0A27 /* UMSocialSDK */ = {
+			isa = PBXGroup;
+			children = (
+				919573AA1FA0E33B00CA0A27 /* UMSocialCore.framework */,
+				919573AB1FA0E33B00CA0A27 /* UMSocialNetwork.framework */,
+				919573AC1FA0E33B00CA0A27 /* UMSocialSDKPromptResources.bundle */,
+			);
+			path = UMSocialSDK;
+			sourceTree = "<group>";
+		};
+		919573AD1FA0E33B00CA0A27 /* UMSocialSDKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				919573AE1FA0E33B00CA0A27 /* libUMSocialLog.a */,
+			);
+			path = UMSocialSDKPlugin;
+			sourceTree = "<group>";
+		};
+		919573AF1FA0E33B00CA0A27 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				919573B01FA0E33B00CA0A27 /* UMSocialSDKResources.bundle */,
+				919573B11FA0E33B00CA0A27 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		919573BA1FA0E3D400CA0A27 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				919573BB1FA0E3D400CA0A27 /* YYFPSLabel.h */,
+				919573BC1FA0E3D400CA0A27 /* YYFPSLabel.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		919573BE1FA0E45800CA0A27 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				919573BF1FA0E45800CA0A27 /* RootNavigationController.h */,
+				919573C01FA0E45800CA0A27 /* RootNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		919573C21FA0E72100CA0A27 /* XYTransition */ = {
+			isa = PBXGroup;
+			children = (
+				919573C31FA0E72100CA0A27 /* XYTransition.h */,
+				919573C41FA0E72100CA0A27 /* XYTransition.m */,
+				919573C51FA0E72100CA0A27 /* XYTransitionProtocol.h */,
+			);
+			path = XYTransition;
+			sourceTree = "<group>";
+		};
 		91972ED01F7B9D07007534EC /* CYLTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +837,8 @@
 		91D21B241F658C0B004F3EFE /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				919573881FA0E08300CA0A27 /* AppManager.h */,
+				919573871FA0E08200CA0A27 /* AppManager.m */,
 				917FB5281F9B2707007DDF87 /* ZFSelectMenuManager.h */,
 				917FB5291F9B2707007DDF87 /* ZFSelectMenuManager.m */,
 			);
@@ -663,6 +849,7 @@
 			isa = PBXGroup;
 			children = (
 				91E7888F1F9B8FFC00A71EC5 /* define.swift */,
+				919573C71FA0E80000CA0A27 /* FontAndColorMacros.h */,
 				91D21B431F697B4B004F3EFE /* UtilsMacros.h */,
 				91D21B441F697BA8004F3EFE /* URLRouteMacros.h */,
 			);
@@ -672,6 +859,9 @@
 		91D21B261F658C0B004F3EFE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				919573BE1FA0E45800CA0A27 /* NavigationController */,
+				919573991FA0E1E000CA0A27 /* RootViewController */,
+				919573921FA0E1A600CA0A27 /* WebViewController */,
 				91E788691F9B88CA00A71EC5 /* BaseViewController.h */,
 				91E7886A1F9B88CA00A71EC5 /* BaseViewController.m */,
 				91D21BA11F6E414D004F3EFE /* TabBar */,
@@ -692,6 +882,7 @@
 		91D21B281F658C0B004F3EFE /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				919573A11FA0E33B00CA0A27 /* UMSocial */,
 				9195736E1F9F822B00CA0A27 /* AFN */,
 				9195735B1F9F7A2800CA0A27 /* tableview */,
 				91E7886C1F9B895100A71EC5 /* SDProgressHUD */,
@@ -782,8 +973,8 @@
 		91D21B551F6E18BD004F3EFE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				91D21B5A1F6E1984004F3EFE /* ProfileViewController.h */,
-				91D21B5B1F6E1984004F3EFE /* ProfileViewController.m */,
+				919573F41FA2BD9400CA0A27 /* ProfileViewController.h */,
+				919573F31FA2BD9400CA0A27 /* ProfileViewController.m */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -809,7 +1000,7 @@
 		91D21B581F6E191F004F3EFE /* SwiftV */ = {
 			isa = PBXGroup;
 			children = (
-				91D21B601F6E19F7004F3EFE /* SwiftVViewController.swift */,
+				919573C81FA0F0BE00CA0A27 /* SwiftVMainViewController.swift */,
 			);
 			path = SwiftV;
 			sourceTree = "<group>";
@@ -901,6 +1092,10 @@
 		91D21BEE1F6EC012004F3EFE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				919573C21FA0E72100CA0A27 /* XYTransition */,
+				919573BA1FA0E3D400CA0A27 /* Other */,
+				9195739D1FA0E27F00CA0A27 /* Category */,
+				9195738E1FA0E10000CA0A27 /* AdPage */,
 				91E788851F9B8EC700A71EC5 /* Public */,
 				91E788701F9B8A3A00A71EC5 /* BundleImage */,
 			);
@@ -1148,6 +1343,7 @@
 				91D21AF71F654250004F3EFE /* Assets.xcassets in Resources */,
 				91D21BD11F6E5048004F3EFE /* icon_tabbar_nearby_selected.png in Resources */,
 				91D21BCB1F6E5048004F3EFE /* icon_tabbar_mine_selected@2x.png in Resources */,
+				919573B61FA0E33B00CA0A27 /* UMSocialSDKPromptResources.bundle in Resources */,
 				91D21B991F6E40A9004F3EFE /* tab_relay_h.png in Resources */,
 				91D21B861F6E40A2004F3EFE /* btn_release@3x.png in Resources */,
 				9163F54B1F7BA7E30044D9BE /* icon.xcassets in Resources */,
@@ -1167,6 +1363,7 @@
 				91D21BD41F6E5048004F3EFE /* icon_tabbar_onsite_selected@2x.png in Resources */,
 				91D21BCC1F6E5048004F3EFE /* icon_tabbar_misc.png in Resources */,
 				91D21BA01F6E40A9004F3EFE /* tab_share_n@2x.png in Resources */,
+				919573B81FA0E33B00CA0A27 /* UMSocialSDKResources.bundle in Resources */,
 				91D21B9D1F6E40A9004F3EFE /* tab_share_h.png in Resources */,
 				919573861FA0D91500CA0A27 /* SwiftVNewsInfos.plist in Resources */,
 				91D21BC61F6E5048004F3EFE /* icon_tabbar_merchant_selected.png in Resources */,
@@ -1257,13 +1454,12 @@
 				9195734E1F9F79BD00CA0A27 /* CustomNewsViewController.m in Sources */,
 				9195736A1F9F7A2900CA0A27 /* ZFTableViewCellModel.m in Sources */,
 				91D21B301F67E1E1004F3EFE /* RoutesDemoTableViewController.m in Sources */,
-				91D21B611F6E19F7004F3EFE /* SwiftVViewController.swift in Sources */,
 				919573661F9F7A2900CA0A27 /* ZFPopBaseViewController.m in Sources */,
 				917FB5351F9B3779007DDF87 /* WSLoginView.m in Sources */,
 				91E788761F9B8B5300A71EC5 /* LoginTest2ViewController.swift in Sources */,
 				91D21AF21F654250004F3EFE /* ViewController.swift in Sources */,
-				91D21B5C1F6E1984004F3EFE /* ProfileViewController.m in Sources */,
 				91E7886F1F9B895700A71EC5 /* SDProgressHUD.m in Sources */,
+				919573A01FA0E27F00CA0A27 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				9163F5481F7BA65B0044D9BE /* LoginTest1ViewController.swift in Sources */,
 				91E788811F9B8E5A00A71EC5 /* BtnView.swift in Sources */,
 				919573681F9F7A2900CA0A27 /* ZFTableViewCell.m in Sources */,
@@ -1272,12 +1468,15 @@
 				91E788731F9B8A4000A71EC5 /* BundleImage.m in Sources */,
 				919573691F9F7A2900CA0A27 /* ZFTableViewCellFrameModel.m in Sources */,
 				919573521F9F79BD00CA0A27 /* NewsWebViewController.m in Sources */,
+				919573891FA0E08300CA0A27 /* AppManager.m in Sources */,
+				919573C91FA0F0BE00CA0A27 /* SwiftVMainViewController.swift in Sources */,
 				917FB5231F9B1ABF007DDF87 /* SZButton.m in Sources */,
 				919573571F9F79BD00CA0A27 /* SwiftInfoCell.m in Sources */,
 				9195737A1F9F82C500CA0A27 /* NSString+Regex.m in Sources */,
 				9195734D1F9F79BD00CA0A27 /* SwiftVInfoCellFrameModel.m in Sources */,
 				919573541F9F79BD00CA0A27 /* SXTitleLable.m in Sources */,
 				917FB52A1F9B2707007DDF87 /* ZFSelectMenuManager.m in Sources */,
+				919573C61FA0E72200CA0A27 /* XYTransition.m in Sources */,
 				919573711F9F822B00CA0A27 /* ZFAFNetworkingToll.m in Sources */,
 				91E7888D1F9B8F2400A71EC5 /* TextFieldTool.swift in Sources */,
 				91E788901F9B900000A71EC5 /* define.swift in Sources */,
@@ -1295,12 +1494,17 @@
 				91D21B541F6D2387004F3EFE /* PreViewViewController.m in Sources */,
 				919573531F9F79BD00CA0A27 /* SwiftVViewController.m in Sources */,
 				91E788871F9B8ECF00A71EC5 /* ZFXibView.swift in Sources */,
+				919573971FA0E1A600CA0A27 /* JSWebViewController.m in Sources */,
 				919573811F9F835900CA0A27 /* XWDataCacheTool.m in Sources */,
 				919573511F9F79BD00CA0A27 /* NewsViewController.m in Sources */,
+				919573911FA0E10100CA0A27 /* AdPageView.m in Sources */,
 				9195736D1F9F7C3F00CA0A27 /* ZFStringTool.m in Sources */,
 				9195734B1F9F79BD00CA0A27 /* NewsCell.m in Sources */,
+				919573C11FA0E45900CA0A27 /* RootNavigationController.m in Sources */,
 				91E7888E1F9B8F2400A71EC5 /* UIButton+Category.swift in Sources */,
 				91D21B5F1F6E19D7004F3EFE /* CocoaChinaViewController.m in Sources */,
+				9195739C1FA0E1E100CA0A27 /* RootViewController.m in Sources */,
+				919573F51FA2BD9500CA0A27 /* ProfileViewController.m in Sources */,
 				919573551F9F79BD00CA0A27 /* NewsInfoCell.m in Sources */,
 				91E7888C1F9B8F2400A71EC5 /* buttonTool.swift in Sources */,
 				91E788831F9B8E6800A71EC5 /* ViewToll.m in Sources */,
@@ -1310,8 +1514,10 @@
 				91E788821F9B8E6300A71EC5 /* UserInfoView.swift in Sources */,
 				91E7886B1F9B88CF00A71EC5 /* BaseViewController.m in Sources */,
 				91E788841F9B8E6C00A71EC5 /* YMFUserInfoView.swift in Sources */,
+				919573BD1FA0E3D500CA0A27 /* YYFPSLabel.m in Sources */,
 				9195737B1F9F82C500CA0A27 /* ZFSpiderTool.m in Sources */,
 				917FB5251F9B1ABF007DDF87 /* SZFoldawayModel.m in Sources */,
+				919573981FA0E1A600CA0A27 /* RootWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,10 +1674,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2SL4EE56MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialUI",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FeiYu/PrefixHeader-FeiYu.pch";
 				INFOPLIST_FILE = FeiYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FeiYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FeiYu/Settings/FeiYu-Bridging-Header.h";
@@ -1488,10 +1705,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2SL4EE56MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialSDK",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialUI",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FeiYu/PrefixHeader-FeiYu.pch";
 				INFOPLIST_FILE = FeiYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/FeiYu/ThridParty/UMSocial/UMSocialSDKPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FeiYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FeiYu/Settings/FeiYu-Bridging-Header.h";

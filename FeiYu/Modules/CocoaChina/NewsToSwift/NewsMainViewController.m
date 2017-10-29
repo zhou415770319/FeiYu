@@ -55,7 +55,8 @@
     self.navigationItem.titleView = segment;
     [self setupScrollView];
     
-    
+    [AppManager showFPS];
+
     // Do any additional setup after loading the view.
 }
 

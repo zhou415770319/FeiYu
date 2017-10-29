@@ -79,7 +79,7 @@ extension AppDelegate{
         }
         
         JLRoutes.init(forScheme: "FeiYu-SwiftV").addRoute("/Main") { (params) -> Bool in
-            let vc = SwiftVViewController.init()
+            let vc = SwiftVMainViewController.init()
             vc.title = "SwiftV"
             self.makeKeyWindow(viewController: vc)
             return true
